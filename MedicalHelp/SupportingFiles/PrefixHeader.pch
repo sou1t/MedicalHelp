@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  MedicalHelp
+//
+//  Created by Maxim Popov popovme@gmail.com on 23.11.15.
+//  Copyright © 2015 Popovme. All rights reserved.
+//
+
+#ifndef DEBUG
+    #define NSLog(...) /* */
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <AVFoundation/AVFoundation.h>
+
+    #import <MagicalRecord/MagicalRecord.h>
+
+    #import "Config.h"
+    #import "Macroses.h"
+    #import "DataModel.h"
+
+    #import "UIColor+Extension.h"
+    #import "UIFont+Extension.h"
+#endif

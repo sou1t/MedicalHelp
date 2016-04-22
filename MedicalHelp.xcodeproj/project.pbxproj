@@ -1,0 +1,1464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F31411A5D4659179EB7427A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACCDC1E5137DFC8BA28DC7C /* libPods.a */; };
+		AC05AB7D1C24AF65001985D8 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB641C24AF65001985D8 /* 1.html */; };
+		AC05AB7E1C24AF65001985D8 /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB651C24AF65001985D8 /* 2.html */; };
+		AC05AB7F1C24AF65001985D8 /* 3.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB661C24AF65001985D8 /* 3.html */; };
+		AC05AB801C24AF65001985D8 /* 4.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB671C24AF65001985D8 /* 4.html */; };
+		AC05AB811C24AF65001985D8 /* 5.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB681C24AF65001985D8 /* 5.html */; };
+		AC05AB821C24AF65001985D8 /* 6.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB691C24AF65001985D8 /* 6.html */; };
+		AC05AB831C24AF65001985D8 /* 7.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB6A1C24AF65001985D8 /* 7.html */; };
+		AC05AB841C24AF65001985D8 /* 8.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB6B1C24AF65001985D8 /* 8.html */; };
+		AC05AB851C24AF65001985D8 /* 9.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB6C1C24AF65001985D8 /* 9.html */; };
+		AC05AB861C24AF65001985D8 /* 10.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB6D1C24AF65001985D8 /* 10.html */; };
+		AC05AB871C24AF65001985D8 /* 11.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB6E1C24AF65001985D8 /* 11.html */; };
+		AC05AB881C24AF65001985D8 /* 12.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB6F1C24AF65001985D8 /* 12.html */; };
+		AC05AB891C24AF65001985D8 /* 13.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB701C24AF65001985D8 /* 13.html */; };
+		AC05AB8A1C24AF65001985D8 /* 14.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB711C24AF65001985D8 /* 14.html */; };
+		AC05AB8B1C24AF65001985D8 /* 15.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB721C24AF65001985D8 /* 15.html */; };
+		AC05AB8C1C24AF65001985D8 /* 16.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB731C24AF65001985D8 /* 16.html */; };
+		AC05AB8D1C24AF65001985D8 /* 17.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB741C24AF65001985D8 /* 17.html */; };
+		AC05AB8E1C24AF65001985D8 /* 18.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB751C24AF65001985D8 /* 18.html */; };
+		AC05AB8F1C24AF65001985D8 /* 19.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB761C24AF65001985D8 /* 19.html */; };
+		AC05AB901C24AF65001985D8 /* 20.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB771C24AF65001985D8 /* 20.html */; };
+		AC05AB911C24AF65001985D8 /* 21.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB781C24AF65001985D8 /* 21.html */; };
+		AC05AB921C24AF65001985D8 /* 22.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB791C24AF65001985D8 /* 22.html */; };
+		AC05AB931C24AF65001985D8 /* 23.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB7A1C24AF65001985D8 /* 23.html */; };
+		AC05AB941C24AF65001985D8 /* 24.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB7B1C24AF65001985D8 /* 24.html */; };
+		AC05AB951C24AF65001985D8 /* 25.html in Resources */ = {isa = PBXBuildFile; fileRef = AC05AB7C1C24AF65001985D8 /* 25.html */; };
+		AC1CB3261C03D0FC004D6307 /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB3251C03D0FC004D6307 /* DetailsController.m */; };
+		AC1CB3301C03E193004D6307 /* diseases.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1CB3281C03E193004D6307 /* diseases.json */; };
+		AC1CB3311C03E193004D6307 /* first_aid.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1CB3291C03E193004D6307 /* first_aid.json */; };
+		AC1CB3321C03E193004D6307 /* medicaments.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1CB32A1C03E193004D6307 /* medicaments.json */; };
+		AC1CB3331C03E193004D6307 /* symptoms.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1CB32B1C03E193004D6307 /* symptoms.json */; };
+		AC1CB3421C048A91004D6307 /* PMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB33E1C048A91004D6307 /* PMLabel.m */; };
+		AC1CB3431C048A91004D6307 /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB3411C048A91004D6307 /* UIImageViewAligned.m */; };
+		AC1CB3481C049793004D6307 /* PMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB3471C049793004D6307 /* PMTagView.m */; };
+		AC1CB3511C04CD24004D6307 /* DescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB3501C04CD24004D6307 /* DescriptionCell.m */; };
+		AC1CB3541C04DE1A004D6307 /* TagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB3531C04DE1A004D6307 /* TagsCell.m */; };
+		AC39B9DA1C031E9E000ADFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39B9D91C031E9E000ADFAE /* main.m */; };
+		AC39B9DD1C031E9E000ADFAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39B9DC1C031E9E000ADFAE /* AppDelegate.m */; };
+		AC39B9E31C031E9E000ADFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39B9E11C031E9E000ADFAE /* Main.storyboard */; };
+		AC39B9E51C031E9E000ADFAE /* System.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39B9E41C031E9E000ADFAE /* System.xcassets */; };
+		AC39B9E81C031E9E000ADFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39B9E61C031E9E000ADFAE /* LaunchScreen.storyboard */; };
+		AC39B9FC1C03211C000ADFAE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39B9F31C03211C000ADFAE /* UIColor+Extension.m */; };
+		AC39B9FD1C03211C000ADFAE /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39B9F51C03211C000ADFAE /* UIFont+Extension.m */; };
+		AC39BA041C032500000ADFAE /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39BA031C032500000ADFAE /* DataModel.m */; };
+		AC39BA111C03292F000ADFAE /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39BA101C03292F000ADFAE /* BaseController.m */; };
+		AC39BA151C032971000ADFAE /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39BA141C032971000ADFAE /* BaseCell.m */; };
+		AC39BA181C032C06000ADFAE /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39BA171C032C06000ADFAE /* Config.m */; };
+		AC39BA1A1C032C63000ADFAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39BA191C032C63000ADFAE /* Images.xcassets */; };
+		AC39BA1F1C033D79000ADFAE /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39BA1E1C033D79000ADFAE /* MainController.m */; };
+		ACC9CDF21C0356B9004F47BC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CDF01C0356B9004F47BC /* Model.xcdatamodeld */; };
+		ACC9CE341C035DB9004F47BC /* MFirstAid.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CE261C035DB9004F47BC /* MFirstAid.m */; };
+		ACC9CE361C035DB9004F47BC /* MSymptom.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CE2A1C035DB9004F47BC /* MSymptom.m */; };
+		ACC9CE381C035DB9004F47BC /* MDisease.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CE2E1C035DB9004F47BC /* MDisease.m */; };
+		ACC9CE3A1C035DB9004F47BC /* MMedicament.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CE321C035DB9004F47BC /* MMedicament.m */; };
+		ACC9CE3D1C036042004F47BC /* MBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CE3C1C036042004F47BC /* MBase.m */; };
+		ACC9CE401C036CDF004F47BC /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9CE3F1C036CDF004F47BC /* MainCell.m */; };
+		ACE18BFD1C10A52700EB74CC /* abaktal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B5C1C10A52700EB74CC /* abaktal.jpg */; };
+		ACE18BFE1C10A52700EB74CC /* aktovegin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B5D1C10A52700EB74CC /* aktovegin.jpg */; };
+		ACE18BFF1C10A52700EB74CC /* alerana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B5E1C10A52700EB74CC /* alerana.jpg */; };
+		ACE18C001C10A52700EB74CC /* allergodil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B5F1C10A52700EB74CC /* allergodil.jpg */; };
+		ACE18C011C10A52700EB74CC /* almagel_a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B601C10A52700EB74CC /* almagel_a.jpg */; };
+		ACE18C021C10A52700EB74CC /* almagel_neo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B611C10A52700EB74CC /* almagel_neo.jpg */; };
+		ACE18C031C10A52700EB74CC /* amoksiklav.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B621C10A52700EB74CC /* amoksiklav.jpg */; };
+		ACE18C041C10A52700EB74CC /* apizartron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B631C10A52700EB74CC /* apizartron.jpg */; };
+		ACE18C051C10A52700EB74CC /* arbidol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B641C10A52700EB74CC /* arbidol.jpg */; };
+		ACE18C061C10A52700EB74CC /* arutimol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B651C10A52700EB74CC /* arutimol.jpg */; };
+		ACE18C071C10A52700EB74CC /* askoril_ekspectorant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B661C10A52700EB74CC /* askoril_ekspectorant.jpg */; };
+		ACE18C081C10A52700EB74CC /* aviamarin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B671C10A52700EB74CC /* aviamarin.jpg */; };
+		ACE18C091C10A52700EB74CC /* balzam_spasatel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B681C10A52700EB74CC /* balzam_spasatel.jpg */; };
+		ACE18C0A1C10A52700EB74CC /* balzam_zolotaya_zvezda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B691C10A52700EB74CC /* balzam_zolotaya_zvezda.jpg */; };
+		ACE18C0B1C10A52700EB74CC /* baneocin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B6A1C10A52700EB74CC /* baneocin.jpg */; };
+		ACE18C0C1C10A52700EB74CC /* belosalik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B6B1C10A52700EB74CC /* belosalik.jpg */; };
+		ACE18C0D1C10A52700EB74CC /* bepanten_plyus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B6C1C10A52700EB74CC /* bepanten_plyus.jpg */; };
+		ACE18C0E1C10A52700EB74CC /* bioparoks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B6D1C10A52700EB74CC /* bioparoks.jpg */; };
+		ACE18C0F1C10A52700EB74CC /* boyarishnik_tabletki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B6E1C10A52700EB74CC /* boyarishnik_tabletki.jpg */; };
+		ACE18C101C10A52700EB74CC /* bronhikum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B6F1C10A52700EB74CC /* bronhikum.jpg */; };
+		ACE18C111C10A52700EB74CC /* bronholitin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B701C10A52700EB74CC /* bronholitin.jpg */; };
+		ACE18C121C10A52700EB74CC /* buskopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B711C10A52700EB74CC /* buskopan.jpg */; };
+		ACE18C131C10A52700EB74CC /* celestoderm_v_s_garamicinom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B721C10A52700EB74CC /* celestoderm_v_s_garamicinom.jpg */; };
+		ACE18C141C10A52700EB74CC /* centrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B731C10A52700EB74CC /* centrum.jpg */; };
+		ACE18C151C10A52700EB74CC /* ciprolet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B741C10A52700EB74CC /* ciprolet.jpg */; };
+		ACE18C161C10A52700EB74CC /* ciston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B751C10A52700EB74CC /* ciston.jpg */; };
+		ACE18C171C10A52700EB74CC /* dalazin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B761C10A52700EB74CC /* dalazin.jpg */; };
+		ACE18C181C10A52700EB74CC /* de_nol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B771C10A52700EB74CC /* de_nol.jpg */; };
+		ACE18C191C10A52700EB74CC /* dekaris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B781C10A52700EB74CC /* dekaris.jpg */; };
+		ACE18C1A1C10A52700EB74CC /* deprim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B791C10A52700EB74CC /* deprim.jpg */; };
+		ACE18C1B1C10A52700EB74CC /* derinat_inyekcii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B7A1C10A52700EB74CC /* derinat_inyekcii.jpg */; };
+		ACE18C1C1C10A52700EB74CC /* derinat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B7B1C10A52700EB74CC /* derinat.jpg */; };
+		ACE18C1D1C10A52700EB74CC /* dip_hit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B7C1C10A52700EB74CC /* dip_hit.jpg */; };
+		ACE18C1E1C10A52700EB74CC /* dramina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B7D1C10A52700EB74CC /* dramina.jpg */; };
+		ACE18C1F1C10A52700EB74CC /* duofilm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B7E1C10A52700EB74CC /* duofilm.jpg */; };
+		ACE18C201C10A52700EB74CC /* dyufalak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B7F1C10A52700EB74CC /* dyufalak.jpg */; };
+		ACE18C211C10A52700EB74CC /* dzhoset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B801C10A52700EB74CC /* dzhoset.jpg */; };
+		ACE18C221C10A52700EB74CC /* ekzoderil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B811C10A52700EB74CC /* ekzoderil.jpg */; };
+		ACE18C231C10A52700EB74CC /* eleuterokokka_ekstrakt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B821C10A52700EB74CC /* eleuterokokka_ekstrakt.jpg */; };
+		ACE18C241C10A52700EB74CC /* enterosgel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B831C10A52700EB74CC /* enterosgel.jpg */; };
+		ACE18C251C10A52700EB74CC /* eskuzan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B841C10A52700EB74CC /* eskuzan.jpg */; };
+		ACE18C261C10A52700EB74CC /* espumizan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B851C10A52700EB74CC /* espumizan.jpg */; };
+		ACE18C271C10A52700EB74CC /* fenistil_gel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B861C10A52700EB74CC /* fenistil_gel.jpg */; };
+		ACE18C281C10A52700EB74CC /* festal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B871C10A52700EB74CC /* festal.jpg */; };
+		ACE18C291C10A52700EB74CC /* finalgel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B881C10A52700EB74CC /* finalgel.jpg */; };
+		ACE18C2A1C10A52700EB74CC /* fitolizin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B891C10A52700EB74CC /* fitolizin.jpg */; };
+		ACE18C2B1C10A52700EB74CC /* floksal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B8A1C10A52700EB74CC /* floksal.jpg */; };
+		ACE18C2C1C10A52700EB74CC /* fosgogliv_forte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B8B1C10A52700EB74CC /* fosgogliv_forte.jpg */; };
+		ACE18C2D1C10A52700EB74CC /* ftalazol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B8C1C10A52700EB74CC /* ftalazol.jpg */; };
+		ACE18C2E1C10A52700EB74CC /* furamag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B8D1C10A52700EB74CC /* furamag.jpg */; };
+		ACE18C2F1C10A52700EB74CC /* furazolidon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B8E1C10A52700EB74CC /* furazolidon.jpg */; };
+		ACE18C301C10A52700EB74CC /* furosemid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B8F1C10A52700EB74CC /* furosemid.jpg */; };
+		ACE18C311C10A52700EB74CC /* galstena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B901C10A52700EB74CC /* galstena.jpg */; };
+		ACE18C321C10A52700EB74CC /* gastrofarm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B911C10A52700EB74CC /* gastrofarm.jpg */; };
+		ACE18C331C10A52700EB74CC /* geksoral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B921C10A52700EB74CC /* geksoral.jpg */; };
+		ACE18C341C10A52700EB74CC /* gelmintoks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B931C10A52700EB74CC /* gelmintoks.jpg */; };
+		ACE18C351C10A52700EB74CC /* geparinovaya_maz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B941C10A52700EB74CC /* geparinovaya_maz.jpg */; };
+		ACE18C361C10A52700EB74CC /* hilak_forte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B951C10A52700EB74CC /* hilak_forte.jpg */; };
+		ACE18C371C10A52700EB74CC /* hondroksid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B961C10A52700EB74CC /* hondroksid.jpg */; };
+		ACE18C381C10A52700EB74CC /* ibuprofen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B971C10A52700EB74CC /* ibuprofen.jpg */; };
+		ACE18C391C10A52700EB74CC /* ihtiolovaya_maz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B981C10A52700EB74CC /* ihtiolovaya_maz.jpg */; };
+		ACE18C3A1C10A52700EB74CC /* intetriks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B991C10A52700EB74CC /* intetriks.jpg */; };
+		ACE18C3B1C10A52700EB74CC /* izoket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B9A1C10A52700EB74CC /* izoket.jpg */; };
+		ACE18C3C1C10A52700EB74CC /* kaffetin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B9B1C10A52700EB74CC /* kaffetin.jpg */; };
+		ACE18C3D1C10A52700EB74CC /* kagocel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B9C1C10A52700EB74CC /* kagocel.jpg */; };
+		ACE18C3E1C10A52700EB74CC /* kanefron_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B9D1C10A52700EB74CC /* kanefron_n.jpg */; };
+		ACE18C3F1C10A52700EB74CC /* karsil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B9E1C10A52700EB74CC /* karsil.jpg */; };
+		ACE18C401C10A52700EB74CC /* klaritin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18B9F1C10A52700EB74CC /* klaritin.jpg */; };
+		ACE18C411C10A52700EB74CC /* klotrimazol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA01C10A52700EB74CC /* klotrimazol.jpg */; };
+		ACE18C421C10A52700EB74CC /* kofetamin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA11C10A52700EB74CC /* kofetamin.jpg */; };
+		ACE18C431C10A52700EB74CC /* kollomak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA21C10A52700EB74CC /* kollomak.jpg */; };
+		ACE18C441C10A52700EB74CC /* komplivit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA31C10A52700EB74CC /* komplivit.jpg */; };
+		ACE18C451C10A52700EB74CC /* korvalol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA41C10A52700EB74CC /* korvalol.jpg */; };
+		ACE18C461C10A52700EB74CC /* kreon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA51C10A52700EB74CC /* kreon.jpg */; };
+		ACE18C471C10A52700EB74CC /* kromogeksal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA61C10A52700EB74CC /* kromogeksal.jpg */; };
+		ACE18C481C10A52700EB74CC /* kvinaks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA71C10A52700EB74CC /* kvinaks.jpg */; };
+		ACE18C491C10A52700EB74CC /* lamizil_uno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA81C10A52700EB74CC /* lamizil_uno.jpg */; };
+		ACE18C4A1C10A52700EB74CC /* lamizil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BA91C10A52700EB74CC /* lamizil.jpg */; };
+		ACE18C4B1C10A52700EB74CC /* levomekol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BAA1C10A52700EB74CC /* levomekol.jpg */; };
+		ACE18C4C1C10A52700EB74CC /* libeksin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BAB1C10A52700EB74CC /* libeksin.jpg */; };
+		ACE18C4D1C10A52700EB74CC /* lineks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BAC1C10A52700EB74CC /* lineks.jpg */; };
+		ACE18C4E1C10A52700EB74CC /* liv_52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BAD1C10A52700EB74CC /* liv_52.jpg */; };
+		ACE18C4F1C10A52700EB74CC /* lopedium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BAE1C10A52700EB74CC /* lopedium.jpg */; };
+		ACE18C501C10A52700EB74CC /* maaloks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BAF1C10A52700EB74CC /* maaloks.jpg */; };
+		ACE18C511C10A52700EB74CC /* maltofer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB01C10A52700EB74CC /* maltofer.jpg */; };
+		ACE18C521C10A52700EB74CC /* maslo_shipovnika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB11C10A52700EB74CC /* maslo_shipovnika.jpg */; };
+		ACE18C531C10A52700EB74CC /* maz_benzilbenzoata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB21C10A52700EB74CC /* maz_benzilbenzoata.jpg */; };
+		ACE18C541C10A52700EB74CC /* meronem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB31C10A52700EB74CC /* meronem.jpg */; };
+		ACE18C551C10A52700EB74CC /* metiluracil_svechi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB41C10A52700EB74CC /* metiluracil_svechi.jpg */; };
+		ACE18C561C10A52700EB74CC /* metrogil_denta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB51C10A52700EB74CC /* metrogil_denta.jpg */; };
+		ACE18C571C10A52700EB74CC /* mezim_forte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB61C10A52700EB74CC /* mezim_forte.jpg */; };
+		ACE18C581C10A52700EB74CC /* migrenol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB71C10A52700EB74CC /* migrenol.jpg */; };
+		ACE18C591C10A52700EB74CC /* mikozoral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB81C10A52700EB74CC /* mikozoral.jpg */; };
+		ACE18C5A1C10A52700EB74CC /* monural.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BB91C10A52700EB74CC /* monural.jpg */; };
+		ACE18C5B1C10A52700EB74CC /* naftaderm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BBA1C10A52700EB74CC /* naftaderm.jpg */; };
+		ACE18C5C1C10A52700EB74CC /* naftizin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BBB1C10A52700EB74CC /* naftizin.jpg */; };
+		ACE18C5D1C10A52700EB74CC /* nastoyka_boyarishnika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BBC1C10A52700EB74CC /* nastoyka_boyarishnika.jpg */; };
+		ACE18C5E1C10A52700EB74CC /* nazivin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BBD1C10A52700EB74CC /* nazivin.jpg */; };
+		ACE18C5F1C10A52700EB74CC /* nitromnt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BBE1C10A52700EB74CC /* nitromnt.jpg */; };
+		ACE18C601C10A52700EB74CC /* no_shpa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BBF1C10A52700EB74CC /* no_shpa.jpg */; };
+		ACE18C611C10A52700EB74CC /* nurofen_forte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC01C10A52700EB74CC /* nurofen_forte.jpg */; };
+		ACE18C621C10A52700EB74CC /* odeston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC11C10A52700EB74CC /* odeston.jpg */; };
+		ACE18C631C10A52700EB74CC /* oftan_katahrom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC21C10A52700EB74CC /* oftan_katahrom.jpg */; };
+		ACE18C641C10A52700EB74CC /* otinum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC31C10A52700EB74CC /* otinum.jpg */; };
+		ACE18C651C10A52700EB74CC /* otipaks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC41C10A52700EB74CC /* otipaks.jpg */; };
+		ACE18C661C10A52700EB74CC /* panavir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC51C10A52700EB74CC /* panavir.jpg */; };
+		ACE18C671C10A52700EB74CC /* papaverin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC61C10A52700EB74CC /* papaverin.jpg */; };
+		ACE18C681C10A52700EB74CC /* pentalgin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC71C10A52700EB74CC /* pentalgin.jpg */; };
+		ACE18C691C10A52700EB74CC /* perekis_vodoroda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC81C10A52700EB74CC /* perekis_vodoroda.jpg */; };
+		ACE18C6A1C10A52700EB74CC /* pikamilon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BC91C10A52700EB74CC /* pikamilon.jpg */; };
+		ACE18C6B1C10A52700EB74CC /* pilobakt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BCA1C10A52700EB74CC /* pilobakt.jpg */; };
+		ACE18C6C1C10A52700EB74CC /* pilokarpin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BCB1C10A52700EB74CC /* pilokarpin.jpg */; };
+		ACE18C6D1C10A52700EB74CC /* pinosol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BCC1C10A52700EB74CC /* pinosol.jpg */; };
+		ACE18C6E1C10A52700EB74CC /* proktoglivenol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BCD1C10A52700EB74CC /* proktoglivenol.jpg */; };
+		ACE18C6F1C10A52700EB74CC /* proktosedil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BCE1C10A52700EB74CC /* proktosedil.jpg */; };
+		ACE18C701C10A52700EB74CC /* proktozan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BCF1C10A52700EB74CC /* proktozan.jpg */; };
+		ACE18C711C10A52700EB74CC /* prostanorm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD01C10A52700EB74CC /* prostanorm.jpg */; };
+		ACE18C721C10A52700EB74CC /* psilo_balzam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD11C10A52700EB74CC /* psilo_balzam.jpg */; };
+		ACE18C731C10A52700EB74CC /* regein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD21C10A52700EB74CC /* regein.jpg */; };
+		ACE18C741C10A52700EB74CC /* renni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD31C10A52700EB74CC /* renni.jpg */; };
+		ACE18C751C10A52700EB74CC /* rotokan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD41C10A52700EB74CC /* rotokan.jpg */; };
+		ACE18C761C10A52700EB74CC /* rozamet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD51C10A52700EB74CC /* rozamet.jpg */; };
+		ACE18C771C10A52700EB74CC /* sab_simpleks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD61C10A52700EB74CC /* sab_simpleks.jpg */; };
+		ACE18C781C10A52700EB74CC /* salbutamol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD71C10A52700EB74CC /* salbutamol.jpg */; };
+		ACE18C791C10A52700EB74CC /* senade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD81C10A52700EB74CC /* senade.jpg */; };
+		ACE18C7A1C10A52700EB74CC /* sibektan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BD91C10A52700EB74CC /* sibektan.jpg */; };
+		ACE18C7B1C10A52700EB74CC /* smekta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BDA1C10A52700EB74CC /* smekta.jpg */; };
+		ACE18C7C1C10A52700EB74CC /* solkoseril_dentalnaya_adgezivnaya_pasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BDB1C10A52700EB74CC /* solkoseril_dentalnaya_adgezivnaya_pasta.jpg */; };
+		ACE18C7D1C10A52700EB74CC /* solkoseril.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BDC1C10A52700EB74CC /* solkoseril.jpg */; };
+		ACE18C7E1C10A52700EB74CC /* sorbifer_durules.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BDD1C10A52700EB74CC /* sorbifer_durules.jpg */; };
+		ACE18C7F1C10A52700EB74CC /* spazgan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BDE1C10A52700EB74CC /* spazgan.jpg */; };
+		ACE18C801C10A52700EB74CC /* spregal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BDF1C10A52700EB74CC /* spregal.jpg */; };
+		ACE18C811C10A52700EB74CC /* stomatofit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE01C10A52700EB74CC /* stomatofit.jpg */; };
+		ACE18C821C10A52700EB74CC /* strepsils.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE11C10A52700EB74CC /* strepsils.jpg */; };
+		ACE18C831C10A52700EB74CC /* struktum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE21C10A52700EB74CC /* struktum.jpg */; };
+		ACE18C841C10A52700EB74CC /* sulfacil_natria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE31C10A52700EB74CC /* sulfacil_natria.jpg */; };
+		ACE18C851C10A52700EB74CC /* suprastin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE41C10A52700EB74CC /* suprastin.jpg */; };
+		ACE18C861C10A52700EB74CC /* sushenitsy_topyanoy_trava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE51C10A52700EB74CC /* sushenitsy_topyanoy_trava.jpg */; };
+		ACE18C871C10A52700EB74CC /* tamiflyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE61C10A52700EB74CC /* tamiflyu.jpg */; };
+		ACE18C881C10A52700EB74CC /* tantum_verde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE71C10A52700EB74CC /* tantum_verde.jpg */; };
+		ACE18C891C10A52700EB74CC /* terzhinan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE81C10A52700EB74CC /* terzhinan.jpg */; };
+		ACE18C8A1C10A52700EB74CC /* tetraciklinovaya_maz_glaznaya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BE91C10A52700EB74CC /* tetraciklinovaya_maz_glaznaya.jpg */; };
+		ACE18C8B1C10A52700EB74CC /* tinidazol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BEA1C10A52700EB74CC /* tinidazol.jpg */; };
+		ACE18C8C1C10A52700EB74CC /* tonzilgon_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BEB1C10A52700EB74CC /* tonzilgon_n.jpg */; };
+		ACE18C8D1C10A52700EB74CC /* triderm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BEC1C10A52700EB74CC /* triderm.jpg */; };
+		ACE18C8E1C10A52700EB74CC /* tussamag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BED1C10A52700EB74CC /* tussamag.jpg */; };
+		ACE18C8F1C10A52700EB74CC /* tykveol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BEE1C10A52700EB74CC /* tykveol.jpg */; };
+		ACE18C901C10A52700EB74CC /* ugol_aktivirivannyj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BEF1C10A52700EB74CC /* ugol_aktivirivannyj.jpg */; };
+		ACE18C911C10A52700EB74CC /* urolesan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF01C10A52700EB74CC /* urolesan.jpg */; };
+		ACE18C921C10A52700EB74CC /* valokordin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF11C10A52700EB74CC /* valokordin.jpg */; };
+		ACE18C931C10A52700EB74CC /* venitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF21C10A52700EB74CC /* venitan.jpg */; };
+		ACE18C941C10A52700EB74CC /* venoruton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF31C10A52700EB74CC /* venoruton.jpg */; };
+		ACE18C951C10A52700EB74CC /* venter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF41C10A52700EB74CC /* venter.jpg */; };
+		ACE18C961C10A52700EB74CC /* veroshpiron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF51C10A52700EB74CC /* veroshpiron.jpg */; };
+		ACE18C971C10A52700EB74CC /* viprosal_v.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF61C10A52700EB74CC /* viprosal_v.jpg */; };
+		ACE18C981C10A52700EB74CC /* viru_merz_serol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF71C10A52700EB74CC /* viru_merz_serol.jpg */; };
+		ACE18C991C10A52700EB74CC /* vitaon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF81C10A52700EB74CC /* vitaon.jpg */; };
+		ACE18C9A1C10A52700EB74CC /* vitaprost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BF91C10A52700EB74CC /* vitaprost.jpg */; };
+		ACE18C9B1C10A52700EB74CC /* voltaren_emulgel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BFA1C10A52700EB74CC /* voltaren_emulgel.jpg */; };
+		ACE18C9C1C10A52700EB74CC /* yoks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BFB1C10A52700EB74CC /* yoks.jpg */; };
+		ACE18C9D1C10A52700EB74CC /* zhen_shen_nastoyka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACE18BFC1C10A52700EB74CC /* zhen_shen_nastoyka.jpg */; };
+		ACE18CA01C10CAEC00EB74CC /* PMAString.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE18C9F1C10CAEC00EB74CC /* PMAString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C1C11E63F3CDDD26015FA57 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACCDC1E5137DFC8BA28DC7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC05AB641C24AF65001985D8 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
+		AC05AB651C24AF65001985D8 /* 2.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
+		AC05AB661C24AF65001985D8 /* 3.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 3.html; sourceTree = "<group>"; };
+		AC05AB671C24AF65001985D8 /* 4.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 4.html; sourceTree = "<group>"; };
+		AC05AB681C24AF65001985D8 /* 5.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 5.html; sourceTree = "<group>"; };
+		AC05AB691C24AF65001985D8 /* 6.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 6.html; sourceTree = "<group>"; };
+		AC05AB6A1C24AF65001985D8 /* 7.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 7.html; sourceTree = "<group>"; };
+		AC05AB6B1C24AF65001985D8 /* 8.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 8.html; sourceTree = "<group>"; };
+		AC05AB6C1C24AF65001985D8 /* 9.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 9.html; sourceTree = "<group>"; };
+		AC05AB6D1C24AF65001985D8 /* 10.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 10.html; sourceTree = "<group>"; };
+		AC05AB6E1C24AF65001985D8 /* 11.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 11.html; sourceTree = "<group>"; };
+		AC05AB6F1C24AF65001985D8 /* 12.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 12.html; sourceTree = "<group>"; };
+		AC05AB701C24AF65001985D8 /* 13.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 13.html; sourceTree = "<group>"; };
+		AC05AB711C24AF65001985D8 /* 14.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 14.html; sourceTree = "<group>"; };
+		AC05AB721C24AF65001985D8 /* 15.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 15.html; sourceTree = "<group>"; };
+		AC05AB731C24AF65001985D8 /* 16.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 16.html; sourceTree = "<group>"; };
+		AC05AB741C24AF65001985D8 /* 17.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 17.html; sourceTree = "<group>"; };
+		AC05AB751C24AF65001985D8 /* 18.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 18.html; sourceTree = "<group>"; };
+		AC05AB761C24AF65001985D8 /* 19.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 19.html; sourceTree = "<group>"; };
+		AC05AB771C24AF65001985D8 /* 20.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 20.html; sourceTree = "<group>"; };
+		AC05AB781C24AF65001985D8 /* 21.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 21.html; sourceTree = "<group>"; };
+		AC05AB791C24AF65001985D8 /* 22.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 22.html; sourceTree = "<group>"; };
+		AC05AB7A1C24AF65001985D8 /* 23.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 23.html; sourceTree = "<group>"; };
+		AC05AB7B1C24AF65001985D8 /* 24.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 24.html; sourceTree = "<group>"; };
+		AC05AB7C1C24AF65001985D8 /* 25.html */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; path = 25.html; sourceTree = "<group>"; };
+		AC1CB3241C03D0FC004D6307 /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
+		AC1CB3251C03D0FC004D6307 /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
+		AC1CB3281C03E193004D6307 /* diseases.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diseases.json; sourceTree = "<group>"; };
+		AC1CB3291C03E193004D6307 /* first_aid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = first_aid.json; sourceTree = "<group>"; };
+		AC1CB32A1C03E193004D6307 /* medicaments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = medicaments.json; sourceTree = "<group>"; };
+		AC1CB32B1C03E193004D6307 /* symptoms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = symptoms.json; sourceTree = "<group>"; };
+		AC1CB33D1C048A91004D6307 /* PMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLabel.h; sourceTree = "<group>"; };
+		AC1CB33E1C048A91004D6307 /* PMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMLabel.m; sourceTree = "<group>"; };
+		AC1CB3401C048A91004D6307 /* UIImageViewAligned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
+		AC1CB3411C048A91004D6307 /* UIImageViewAligned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
+		AC1CB3461C049793004D6307 /* PMTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTagView.h; sourceTree = "<group>"; };
+		AC1CB3471C049793004D6307 /* PMTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTagView.m; sourceTree = "<group>"; };
+		AC1CB34F1C04CD24004D6307 /* DescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCell.h; sourceTree = "<group>"; };
+		AC1CB3501C04CD24004D6307 /* DescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionCell.m; sourceTree = "<group>"; };
+		AC1CB3521C04DE1A004D6307 /* TagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsCell.h; sourceTree = "<group>"; };
+		AC1CB3531C04DE1A004D6307 /* TagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsCell.m; sourceTree = "<group>"; };
+		AC39B9D51C031E9E000ADFAE /* MedicalHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39B9D91C031E9E000ADFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC39B9DB1C031E9E000ADFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC39B9DC1C031E9E000ADFAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC39B9E21C031E9E000ADFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC39B9E41C031E9E000ADFAE /* System.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = System.xcassets; sourceTree = "<group>"; };
+		AC39B9E71C031E9E000ADFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC39B9E91C031E9E000ADFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC39B9F21C03211C000ADFAE /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		AC39B9F31C03211C000ADFAE /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		AC39B9F41C03211C000ADFAE /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		AC39B9F51C03211C000ADFAE /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		AC39B9F81C03211C000ADFAE /* Macroses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macroses.h; sourceTree = "<group>"; };
+		AC39BA011C03237A000ADFAE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AC39BA021C032500000ADFAE /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		AC39BA031C032500000ADFAE /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		AC39BA0F1C03292F000ADFAE /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		AC39BA101C03292F000ADFAE /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		AC39BA131C032971000ADFAE /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		AC39BA141C032971000ADFAE /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		AC39BA161C032C06000ADFAE /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		AC39BA171C032C06000ADFAE /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		AC39BA191C032C63000ADFAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC39BA1D1C033D79000ADFAE /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		AC39BA1E1C033D79000ADFAE /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		ACC9CDF11C0356B9004F47BC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		ACC9CE251C035DB9004F47BC /* MFirstAid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFirstAid.h; sourceTree = "<group>"; };
+		ACC9CE261C035DB9004F47BC /* MFirstAid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFirstAid.m; sourceTree = "<group>"; };
+		ACC9CE291C035DB9004F47BC /* MSymptom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSymptom.h; sourceTree = "<group>"; };
+		ACC9CE2A1C035DB9004F47BC /* MSymptom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSymptom.m; sourceTree = "<group>"; };
+		ACC9CE2D1C035DB9004F47BC /* MDisease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDisease.h; sourceTree = "<group>"; };
+		ACC9CE2E1C035DB9004F47BC /* MDisease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDisease.m; sourceTree = "<group>"; };
+		ACC9CE311C035DB9004F47BC /* MMedicament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMedicament.h; sourceTree = "<group>"; };
+		ACC9CE321C035DB9004F47BC /* MMedicament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMedicament.m; sourceTree = "<group>"; };
+		ACC9CE3B1C036042004F47BC /* MBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBase.h; sourceTree = "<group>"; };
+		ACC9CE3C1C036042004F47BC /* MBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBase.m; sourceTree = "<group>"; };
+		ACC9CE3E1C036CDF004F47BC /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		ACC9CE3F1C036CDF004F47BC /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		ACE18B5C1C10A52700EB74CC /* abaktal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abaktal.jpg; sourceTree = "<group>"; };
+		ACE18B5D1C10A52700EB74CC /* aktovegin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aktovegin.jpg; sourceTree = "<group>"; };
+		ACE18B5E1C10A52700EB74CC /* alerana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alerana.jpg; sourceTree = "<group>"; };
+		ACE18B5F1C10A52700EB74CC /* allergodil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allergodil.jpg; sourceTree = "<group>"; };
+		ACE18B601C10A52700EB74CC /* almagel_a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = almagel_a.jpg; sourceTree = "<group>"; };
+		ACE18B611C10A52700EB74CC /* almagel_neo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = almagel_neo.jpg; sourceTree = "<group>"; };
+		ACE18B621C10A52700EB74CC /* amoksiklav.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amoksiklav.jpg; sourceTree = "<group>"; };
+		ACE18B631C10A52700EB74CC /* apizartron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apizartron.jpg; sourceTree = "<group>"; };
+		ACE18B641C10A52700EB74CC /* arbidol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arbidol.jpg; sourceTree = "<group>"; };
+		ACE18B651C10A52700EB74CC /* arutimol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arutimol.jpg; sourceTree = "<group>"; };
+		ACE18B661C10A52700EB74CC /* askoril_ekspectorant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = askoril_ekspectorant.jpg; sourceTree = "<group>"; };
+		ACE18B671C10A52700EB74CC /* aviamarin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aviamarin.jpg; sourceTree = "<group>"; };
+		ACE18B681C10A52700EB74CC /* balzam_spasatel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balzam_spasatel.jpg; sourceTree = "<group>"; };
+		ACE18B691C10A52700EB74CC /* balzam_zolotaya_zvezda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balzam_zolotaya_zvezda.jpg; sourceTree = "<group>"; };
+		ACE18B6A1C10A52700EB74CC /* baneocin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baneocin.jpg; sourceTree = "<group>"; };
+		ACE18B6B1C10A52700EB74CC /* belosalik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belosalik.jpg; sourceTree = "<group>"; };
+		ACE18B6C1C10A52700EB74CC /* bepanten_plyus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bepanten_plyus.jpg; sourceTree = "<group>"; };
+		ACE18B6D1C10A52700EB74CC /* bioparoks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bioparoks.jpg; sourceTree = "<group>"; };
+		ACE18B6E1C10A52700EB74CC /* boyarishnik_tabletki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boyarishnik_tabletki.jpg; sourceTree = "<group>"; };
+		ACE18B6F1C10A52700EB74CC /* bronhikum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bronhikum.jpg; sourceTree = "<group>"; };
+		ACE18B701C10A52700EB74CC /* bronholitin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bronholitin.jpg; sourceTree = "<group>"; };
+		ACE18B711C10A52700EB74CC /* buskopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buskopan.jpg; sourceTree = "<group>"; };
+		ACE18B721C10A52700EB74CC /* celestoderm_v_s_garamicinom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = celestoderm_v_s_garamicinom.jpg; sourceTree = "<group>"; };
+		ACE18B731C10A52700EB74CC /* centrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centrum.jpg; sourceTree = "<group>"; };
+		ACE18B741C10A52700EB74CC /* ciprolet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciprolet.jpg; sourceTree = "<group>"; };
+		ACE18B751C10A52700EB74CC /* ciston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciston.jpg; sourceTree = "<group>"; };
+		ACE18B761C10A52700EB74CC /* dalazin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dalazin.jpg; sourceTree = "<group>"; };
+		ACE18B771C10A52700EB74CC /* de_nol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = de_nol.jpg; sourceTree = "<group>"; };
+		ACE18B781C10A52700EB74CC /* dekaris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dekaris.jpg; sourceTree = "<group>"; };
+		ACE18B791C10A52700EB74CC /* deprim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deprim.jpg; sourceTree = "<group>"; };
+		ACE18B7A1C10A52700EB74CC /* derinat_inyekcii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = derinat_inyekcii.jpg; sourceTree = "<group>"; };
+		ACE18B7B1C10A52700EB74CC /* derinat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = derinat.jpg; sourceTree = "<group>"; };
+		ACE18B7C1C10A52700EB74CC /* dip_hit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dip_hit.jpg; sourceTree = "<group>"; };
+		ACE18B7D1C10A52700EB74CC /* dramina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dramina.jpg; sourceTree = "<group>"; };
+		ACE18B7E1C10A52700EB74CC /* duofilm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duofilm.jpg; sourceTree = "<group>"; };
+		ACE18B7F1C10A52700EB74CC /* dyufalak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dyufalak.jpg; sourceTree = "<group>"; };
+		ACE18B801C10A52700EB74CC /* dzhoset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dzhoset.jpg; sourceTree = "<group>"; };
+		ACE18B811C10A52700EB74CC /* ekzoderil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ekzoderil.jpg; sourceTree = "<group>"; };
+		ACE18B821C10A52700EB74CC /* eleuterokokka_ekstrakt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eleuterokokka_ekstrakt.jpg; sourceTree = "<group>"; };
+		ACE18B831C10A52700EB74CC /* enterosgel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enterosgel.jpg; sourceTree = "<group>"; };
+		ACE18B841C10A52700EB74CC /* eskuzan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eskuzan.jpg; sourceTree = "<group>"; };
+		ACE18B851C10A52700EB74CC /* espumizan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = espumizan.jpg; sourceTree = "<group>"; };
+		ACE18B861C10A52700EB74CC /* fenistil_gel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fenistil_gel.jpg; sourceTree = "<group>"; };
+		ACE18B871C10A52700EB74CC /* festal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = festal.jpg; sourceTree = "<group>"; };
+		ACE18B881C10A52700EB74CC /* finalgel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finalgel.jpg; sourceTree = "<group>"; };
+		ACE18B891C10A52700EB74CC /* fitolizin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fitolizin.jpg; sourceTree = "<group>"; };
+		ACE18B8A1C10A52700EB74CC /* floksal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floksal.jpg; sourceTree = "<group>"; };
+		ACE18B8B1C10A52700EB74CC /* fosgogliv_forte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fosgogliv_forte.jpg; sourceTree = "<group>"; };
+		ACE18B8C1C10A52700EB74CC /* ftalazol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ftalazol.jpg; sourceTree = "<group>"; };
+		ACE18B8D1C10A52700EB74CC /* furamag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furamag.jpg; sourceTree = "<group>"; };
+		ACE18B8E1C10A52700EB74CC /* furazolidon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furazolidon.jpg; sourceTree = "<group>"; };
+		ACE18B8F1C10A52700EB74CC /* furosemid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furosemid.jpg; sourceTree = "<group>"; };
+		ACE18B901C10A52700EB74CC /* galstena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galstena.jpg; sourceTree = "<group>"; };
+		ACE18B911C10A52700EB74CC /* gastrofarm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gastrofarm.jpg; sourceTree = "<group>"; };
+		ACE18B921C10A52700EB74CC /* geksoral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geksoral.jpg; sourceTree = "<group>"; };
+		ACE18B931C10A52700EB74CC /* gelmintoks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gelmintoks.jpg; sourceTree = "<group>"; };
+		ACE18B941C10A52700EB74CC /* geparinovaya_maz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geparinovaya_maz.jpg; sourceTree = "<group>"; };
+		ACE18B951C10A52700EB74CC /* hilak_forte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hilak_forte.jpg; sourceTree = "<group>"; };
+		ACE18B961C10A52700EB74CC /* hondroksid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hondroksid.jpg; sourceTree = "<group>"; };
+		ACE18B971C10A52700EB74CC /* ibuprofen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ibuprofen.jpg; sourceTree = "<group>"; };
+		ACE18B981C10A52700EB74CC /* ihtiolovaya_maz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ihtiolovaya_maz.jpg; sourceTree = "<group>"; };
+		ACE18B991C10A52700EB74CC /* intetriks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intetriks.jpg; sourceTree = "<group>"; };
+		ACE18B9A1C10A52700EB74CC /* izoket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = izoket.jpg; sourceTree = "<group>"; };
+		ACE18B9B1C10A52700EB74CC /* kaffetin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kaffetin.jpg; sourceTree = "<group>"; };
+		ACE18B9C1C10A52700EB74CC /* kagocel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kagocel.jpg; sourceTree = "<group>"; };
+		ACE18B9D1C10A52700EB74CC /* kanefron_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanefron_n.jpg; sourceTree = "<group>"; };
+		ACE18B9E1C10A52700EB74CC /* karsil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karsil.jpg; sourceTree = "<group>"; };
+		ACE18B9F1C10A52700EB74CC /* klaritin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = klaritin.jpg; sourceTree = "<group>"; };
+		ACE18BA01C10A52700EB74CC /* klotrimazol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = klotrimazol.jpg; sourceTree = "<group>"; };
+		ACE18BA11C10A52700EB74CC /* kofetamin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kofetamin.jpg; sourceTree = "<group>"; };
+		ACE18BA21C10A52700EB74CC /* kollomak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kollomak.jpg; sourceTree = "<group>"; };
+		ACE18BA31C10A52700EB74CC /* komplivit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = komplivit.jpg; sourceTree = "<group>"; };
+		ACE18BA41C10A52700EB74CC /* korvalol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = korvalol.jpg; sourceTree = "<group>"; };
+		ACE18BA51C10A52700EB74CC /* kreon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kreon.jpg; sourceTree = "<group>"; };
+		ACE18BA61C10A52700EB74CC /* kromogeksal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kromogeksal.jpg; sourceTree = "<group>"; };
+		ACE18BA71C10A52700EB74CC /* kvinaks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kvinaks.jpg; sourceTree = "<group>"; };
+		ACE18BA81C10A52700EB74CC /* lamizil_uno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamizil_uno.jpg; sourceTree = "<group>"; };
+		ACE18BA91C10A52700EB74CC /* lamizil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamizil.jpg; sourceTree = "<group>"; };
+		ACE18BAA1C10A52700EB74CC /* levomekol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = levomekol.jpg; sourceTree = "<group>"; };
+		ACE18BAB1C10A52700EB74CC /* libeksin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libeksin.jpg; sourceTree = "<group>"; };
+		ACE18BAC1C10A52700EB74CC /* lineks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lineks.jpg; sourceTree = "<group>"; };
+		ACE18BAD1C10A52700EB74CC /* liv_52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liv_52.jpg; sourceTree = "<group>"; };
+		ACE18BAE1C10A52700EB74CC /* lopedium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lopedium.jpg; sourceTree = "<group>"; };
+		ACE18BAF1C10A52700EB74CC /* maaloks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maaloks.jpg; sourceTree = "<group>"; };
+		ACE18BB01C10A52700EB74CC /* maltofer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maltofer.jpg; sourceTree = "<group>"; };
+		ACE18BB11C10A52700EB74CC /* maslo_shipovnika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maslo_shipovnika.jpg; sourceTree = "<group>"; };
+		ACE18BB21C10A52700EB74CC /* maz_benzilbenzoata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maz_benzilbenzoata.jpg; sourceTree = "<group>"; };
+		ACE18BB31C10A52700EB74CC /* meronem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meronem.jpg; sourceTree = "<group>"; };
+		ACE18BB41C10A52700EB74CC /* metiluracil_svechi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metiluracil_svechi.jpg; sourceTree = "<group>"; };
+		ACE18BB51C10A52700EB74CC /* metrogil_denta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metrogil_denta.jpg; sourceTree = "<group>"; };
+		ACE18BB61C10A52700EB74CC /* mezim_forte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mezim_forte.jpg; sourceTree = "<group>"; };
+		ACE18BB71C10A52700EB74CC /* migrenol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = migrenol.jpg; sourceTree = "<group>"; };
+		ACE18BB81C10A52700EB74CC /* mikozoral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mikozoral.jpg; sourceTree = "<group>"; };
+		ACE18BB91C10A52700EB74CC /* monural.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monural.jpg; sourceTree = "<group>"; };
+		ACE18BBA1C10A52700EB74CC /* naftaderm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naftaderm.jpg; sourceTree = "<group>"; };
+		ACE18BBB1C10A52700EB74CC /* naftizin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naftizin.jpg; sourceTree = "<group>"; };
+		ACE18BBC1C10A52700EB74CC /* nastoyka_boyarishnika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nastoyka_boyarishnika.jpg; sourceTree = "<group>"; };
+		ACE18BBD1C10A52700EB74CC /* nazivin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nazivin.jpg; sourceTree = "<group>"; };
+		ACE18BBE1C10A52700EB74CC /* nitromnt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nitromnt.jpg; sourceTree = "<group>"; };
+		ACE18BBF1C10A52700EB74CC /* no_shpa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_shpa.jpg; sourceTree = "<group>"; };
+		ACE18BC01C10A52700EB74CC /* nurofen_forte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nurofen_forte.jpg; sourceTree = "<group>"; };
+		ACE18BC11C10A52700EB74CC /* odeston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odeston.jpg; sourceTree = "<group>"; };
+		ACE18BC21C10A52700EB74CC /* oftan_katahrom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oftan_katahrom.jpg; sourceTree = "<group>"; };
+		ACE18BC31C10A52700EB74CC /* otinum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = otinum.jpg; sourceTree = "<group>"; };
+		ACE18BC41C10A52700EB74CC /* otipaks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = otipaks.jpg; sourceTree = "<group>"; };
+		ACE18BC51C10A52700EB74CC /* panavir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panavir.jpg; sourceTree = "<group>"; };
+		ACE18BC61C10A52700EB74CC /* papaverin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = papaverin.jpg; sourceTree = "<group>"; };
+		ACE18BC71C10A52700EB74CC /* pentalgin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pentalgin.jpg; sourceTree = "<group>"; };
+		ACE18BC81C10A52700EB74CC /* perekis_vodoroda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perekis_vodoroda.jpg; sourceTree = "<group>"; };
+		ACE18BC91C10A52700EB74CC /* pikamilon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pikamilon.jpg; sourceTree = "<group>"; };
+		ACE18BCA1C10A52700EB74CC /* pilobakt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pilobakt.jpg; sourceTree = "<group>"; };
+		ACE18BCB1C10A52700EB74CC /* pilokarpin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pilokarpin.jpg; sourceTree = "<group>"; };
+		ACE18BCC1C10A52700EB74CC /* pinosol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinosol.jpg; sourceTree = "<group>"; };
+		ACE18BCD1C10A52700EB74CC /* proktoglivenol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = proktoglivenol.jpg; sourceTree = "<group>"; };
+		ACE18BCE1C10A52700EB74CC /* proktosedil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = proktosedil.jpg; sourceTree = "<group>"; };
+		ACE18BCF1C10A52700EB74CC /* proktozan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = proktozan.jpg; sourceTree = "<group>"; };
+		ACE18BD01C10A52700EB74CC /* prostanorm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prostanorm.jpg; sourceTree = "<group>"; };
+		ACE18BD11C10A52700EB74CC /* psilo_balzam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = psilo_balzam.jpg; sourceTree = "<group>"; };
+		ACE18BD21C10A52700EB74CC /* regein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regein.jpg; sourceTree = "<group>"; };
+		ACE18BD31C10A52700EB74CC /* renni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = renni.jpg; sourceTree = "<group>"; };
+		ACE18BD41C10A52700EB74CC /* rotokan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rotokan.jpg; sourceTree = "<group>"; };
+		ACE18BD51C10A52700EB74CC /* rozamet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rozamet.jpg; sourceTree = "<group>"; };
+		ACE18BD61C10A52700EB74CC /* sab_simpleks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sab_simpleks.jpg; sourceTree = "<group>"; };
+		ACE18BD71C10A52700EB74CC /* salbutamol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salbutamol.jpg; sourceTree = "<group>"; };
+		ACE18BD81C10A52700EB74CC /* senade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = senade.jpg; sourceTree = "<group>"; };
+		ACE18BD91C10A52700EB74CC /* sibektan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sibektan.jpg; sourceTree = "<group>"; };
+		ACE18BDA1C10A52700EB74CC /* smekta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smekta.jpg; sourceTree = "<group>"; };
+		ACE18BDB1C10A52700EB74CC /* solkoseril_dentalnaya_adgezivnaya_pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = solkoseril_dentalnaya_adgezivnaya_pasta.jpg; sourceTree = "<group>"; };
+		ACE18BDC1C10A52700EB74CC /* solkoseril.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = solkoseril.jpg; sourceTree = "<group>"; };
+		ACE18BDD1C10A52700EB74CC /* sorbifer_durules.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sorbifer_durules.jpg; sourceTree = "<group>"; };
+		ACE18BDE1C10A52700EB74CC /* spazgan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spazgan.jpg; sourceTree = "<group>"; };
+		ACE18BDF1C10A52700EB74CC /* spregal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spregal.jpg; sourceTree = "<group>"; };
+		ACE18BE01C10A52700EB74CC /* stomatofit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stomatofit.jpg; sourceTree = "<group>"; };
+		ACE18BE11C10A52700EB74CC /* strepsils.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strepsils.jpg; sourceTree = "<group>"; };
+		ACE18BE21C10A52700EB74CC /* struktum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = struktum.jpg; sourceTree = "<group>"; };
+		ACE18BE31C10A52700EB74CC /* sulfacil_natria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sulfacil_natria.jpg; sourceTree = "<group>"; };
+		ACE18BE41C10A52700EB74CC /* suprastin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suprastin.jpg; sourceTree = "<group>"; };
+		ACE18BE51C10A52700EB74CC /* sushenitsy_topyanoy_trava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushenitsy_topyanoy_trava.jpg; sourceTree = "<group>"; };
+		ACE18BE61C10A52700EB74CC /* tamiflyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamiflyu.jpg; sourceTree = "<group>"; };
+		ACE18BE71C10A52700EB74CC /* tantum_verde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tantum_verde.jpg; sourceTree = "<group>"; };
+		ACE18BE81C10A52700EB74CC /* terzhinan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terzhinan.jpg; sourceTree = "<group>"; };
+		ACE18BE91C10A52700EB74CC /* tetraciklinovaya_maz_glaznaya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tetraciklinovaya_maz_glaznaya.jpg; sourceTree = "<group>"; };
+		ACE18BEA1C10A52700EB74CC /* tinidazol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tinidazol.jpg; sourceTree = "<group>"; };
+		ACE18BEB1C10A52700EB74CC /* tonzilgon_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tonzilgon_n.jpg; sourceTree = "<group>"; };
+		ACE18BEC1C10A52700EB74CC /* triderm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = triderm.jpg; sourceTree = "<group>"; };
+		ACE18BED1C10A52700EB74CC /* tussamag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tussamag.jpg; sourceTree = "<group>"; };
+		ACE18BEE1C10A52700EB74CC /* tykveol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tykveol.jpg; sourceTree = "<group>"; };
+		ACE18BEF1C10A52700EB74CC /* ugol_aktivirivannyj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ugol_aktivirivannyj.jpg; sourceTree = "<group>"; };
+		ACE18BF01C10A52700EB74CC /* urolesan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urolesan.jpg; sourceTree = "<group>"; };
+		ACE18BF11C10A52700EB74CC /* valokordin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valokordin.jpg; sourceTree = "<group>"; };
+		ACE18BF21C10A52700EB74CC /* venitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venitan.jpg; sourceTree = "<group>"; };
+		ACE18BF31C10A52700EB74CC /* venoruton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venoruton.jpg; sourceTree = "<group>"; };
+		ACE18BF41C10A52700EB74CC /* venter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venter.jpg; sourceTree = "<group>"; };
+		ACE18BF51C10A52700EB74CC /* veroshpiron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veroshpiron.jpg; sourceTree = "<group>"; };
+		ACE18BF61C10A52700EB74CC /* viprosal_v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viprosal_v.jpg; sourceTree = "<group>"; };
+		ACE18BF71C10A52700EB74CC /* viru_merz_serol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viru_merz_serol.jpg; sourceTree = "<group>"; };
+		ACE18BF81C10A52700EB74CC /* vitaon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vitaon.jpg; sourceTree = "<group>"; };
+		ACE18BF91C10A52700EB74CC /* vitaprost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vitaprost.jpg; sourceTree = "<group>"; };
+		ACE18BFA1C10A52700EB74CC /* voltaren_emulgel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = voltaren_emulgel.jpg; sourceTree = "<group>"; };
+		ACE18BFB1C10A52700EB74CC /* yoks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoks.jpg; sourceTree = "<group>"; };
+		ACE18BFC1C10A52700EB74CC /* zhen_shen_nastoyka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhen_shen_nastoyka.jpg; sourceTree = "<group>"; };
+		ACE18C9E1C10CAEC00EB74CC /* PMAString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAString.h; sourceTree = "<group>"; };
+		ACE18C9F1C10CAEC00EB74CC /* PMAString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAString.m; sourceTree = "<group>"; };
+		BD01D7801BDA422A18012554 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC39B9D21C031E9E000ADFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F31411A5D4659179EB7427A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B53EFB62EA610D22EF95865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C11E63F3CDDD26015FA57 /* Pods.debug.xcconfig */,
+				BD01D7801BDA422A18012554 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC1CB3231C03D0DA004D6307 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB3241C03D0FC004D6307 /* DetailsController.h */,
+				AC1CB3251C03D0FC004D6307 /* DetailsController.m */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		AC1CB3271C03E193004D6307 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB3281C03E193004D6307 /* diseases.json */,
+				AC1CB3291C03E193004D6307 /* first_aid.json */,
+				AC1CB32A1C03E193004D6307 /* medicaments.json */,
+				AC1CB32B1C03E193004D6307 /* symptoms.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AC1CB32C1C03E193004D6307 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACE18B5C1C10A52700EB74CC /* abaktal.jpg */,
+				ACE18B5D1C10A52700EB74CC /* aktovegin.jpg */,
+				ACE18B5E1C10A52700EB74CC /* alerana.jpg */,
+				ACE18B5F1C10A52700EB74CC /* allergodil.jpg */,
+				ACE18B601C10A52700EB74CC /* almagel_a.jpg */,
+				ACE18B611C10A52700EB74CC /* almagel_neo.jpg */,
+				ACE18B621C10A52700EB74CC /* amoksiklav.jpg */,
+				ACE18B631C10A52700EB74CC /* apizartron.jpg */,
+				ACE18B641C10A52700EB74CC /* arbidol.jpg */,
+				ACE18B651C10A52700EB74CC /* arutimol.jpg */,
+				ACE18B661C10A52700EB74CC /* askoril_ekspectorant.jpg */,
+				ACE18B671C10A52700EB74CC /* aviamarin.jpg */,
+				ACE18B681C10A52700EB74CC /* balzam_spasatel.jpg */,
+				ACE18B691C10A52700EB74CC /* balzam_zolotaya_zvezda.jpg */,
+				ACE18B6A1C10A52700EB74CC /* baneocin.jpg */,
+				ACE18B6B1C10A52700EB74CC /* belosalik.jpg */,
+				ACE18B6C1C10A52700EB74CC /* bepanten_plyus.jpg */,
+				ACE18B6D1C10A52700EB74CC /* bioparoks.jpg */,
+				ACE18B6E1C10A52700EB74CC /* boyarishnik_tabletki.jpg */,
+				ACE18B6F1C10A52700EB74CC /* bronhikum.jpg */,
+				ACE18B701C10A52700EB74CC /* bronholitin.jpg */,
+				ACE18B711C10A52700EB74CC /* buskopan.jpg */,
+				ACE18B721C10A52700EB74CC /* celestoderm_v_s_garamicinom.jpg */,
+				ACE18B731C10A52700EB74CC /* centrum.jpg */,
+				ACE18B741C10A52700EB74CC /* ciprolet.jpg */,
+				ACE18B751C10A52700EB74CC /* ciston.jpg */,
+				ACE18B761C10A52700EB74CC /* dalazin.jpg */,
+				ACE18B771C10A52700EB74CC /* de_nol.jpg */,
+				ACE18B781C10A52700EB74CC /* dekaris.jpg */,
+				ACE18B791C10A52700EB74CC /* deprim.jpg */,
+				ACE18B7A1C10A52700EB74CC /* derinat_inyekcii.jpg */,
+				ACE18B7B1C10A52700EB74CC /* derinat.jpg */,
+				ACE18B7C1C10A52700EB74CC /* dip_hit.jpg */,
+				ACE18B7D1C10A52700EB74CC /* dramina.jpg */,
+				ACE18B7E1C10A52700EB74CC /* duofilm.jpg */,
+				ACE18B7F1C10A52700EB74CC /* dyufalak.jpg */,
+				ACE18B801C10A52700EB74CC /* dzhoset.jpg */,
+				ACE18B811C10A52700EB74CC /* ekzoderil.jpg */,
+				ACE18B821C10A52700EB74CC /* eleuterokokka_ekstrakt.jpg */,
+				ACE18B831C10A52700EB74CC /* enterosgel.jpg */,
+				ACE18B841C10A52700EB74CC /* eskuzan.jpg */,
+				ACE18B851C10A52700EB74CC /* espumizan.jpg */,
+				ACE18B861C10A52700EB74CC /* fenistil_gel.jpg */,
+				ACE18B871C10A52700EB74CC /* festal.jpg */,
+				ACE18B881C10A52700EB74CC /* finalgel.jpg */,
+				ACE18B891C10A52700EB74CC /* fitolizin.jpg */,
+				ACE18B8A1C10A52700EB74CC /* floksal.jpg */,
+				ACE18B8B1C10A52700EB74CC /* fosgogliv_forte.jpg */,
+				ACE18B8C1C10A52700EB74CC /* ftalazol.jpg */,
+				ACE18B8D1C10A52700EB74CC /* furamag.jpg */,
+				ACE18B8E1C10A52700EB74CC /* furazolidon.jpg */,
+				ACE18B8F1C10A52700EB74CC /* furosemid.jpg */,
+				ACE18B901C10A52700EB74CC /* galstena.jpg */,
+				ACE18B911C10A52700EB74CC /* gastrofarm.jpg */,
+				ACE18B921C10A52700EB74CC /* geksoral.jpg */,
+				ACE18B931C10A52700EB74CC /* gelmintoks.jpg */,
+				ACE18B941C10A52700EB74CC /* geparinovaya_maz.jpg */,
+				ACE18B951C10A52700EB74CC /* hilak_forte.jpg */,
+				ACE18B961C10A52700EB74CC /* hondroksid.jpg */,
+				ACE18B971C10A52700EB74CC /* ibuprofen.jpg */,
+				ACE18B981C10A52700EB74CC /* ihtiolovaya_maz.jpg */,
+				ACE18B991C10A52700EB74CC /* intetriks.jpg */,
+				ACE18B9A1C10A52700EB74CC /* izoket.jpg */,
+				ACE18B9B1C10A52700EB74CC /* kaffetin.jpg */,
+				ACE18B9C1C10A52700EB74CC /* kagocel.jpg */,
+				ACE18B9D1C10A52700EB74CC /* kanefron_n.jpg */,
+				ACE18B9E1C10A52700EB74CC /* karsil.jpg */,
+				ACE18B9F1C10A52700EB74CC /* klaritin.jpg */,
+				ACE18BA01C10A52700EB74CC /* klotrimazol.jpg */,
+				ACE18BA11C10A52700EB74CC /* kofetamin.jpg */,
+				ACE18BA21C10A52700EB74CC /* kollomak.jpg */,
+				ACE18BA31C10A52700EB74CC /* komplivit.jpg */,
+				ACE18BA41C10A52700EB74CC /* korvalol.jpg */,
+				ACE18BA51C10A52700EB74CC /* kreon.jpg */,
+				ACE18BA61C10A52700EB74CC /* kromogeksal.jpg */,
+				ACE18BA71C10A52700EB74CC /* kvinaks.jpg */,
+				ACE18BA81C10A52700EB74CC /* lamizil_uno.jpg */,
+				ACE18BA91C10A52700EB74CC /* lamizil.jpg */,
+				ACE18BAA1C10A52700EB74CC /* levomekol.jpg */,
+				ACE18BAB1C10A52700EB74CC /* libeksin.jpg */,
+				ACE18BAC1C10A52700EB74CC /* lineks.jpg */,
+				ACE18BAD1C10A52700EB74CC /* liv_52.jpg */,
+				ACE18BAE1C10A52700EB74CC /* lopedium.jpg */,
+				ACE18BAF1C10A52700EB74CC /* maaloks.jpg */,
+				ACE18BB01C10A52700EB74CC /* maltofer.jpg */,
+				ACE18BB11C10A52700EB74CC /* maslo_shipovnika.jpg */,
+				ACE18BB21C10A52700EB74CC /* maz_benzilbenzoata.jpg */,
+				ACE18BB31C10A52700EB74CC /* meronem.jpg */,
+				ACE18BB41C10A52700EB74CC /* metiluracil_svechi.jpg */,
+				ACE18BB51C10A52700EB74CC /* metrogil_denta.jpg */,
+				ACE18BB61C10A52700EB74CC /* mezim_forte.jpg */,
+				ACE18BB71C10A52700EB74CC /* migrenol.jpg */,
+				ACE18BB81C10A52700EB74CC /* mikozoral.jpg */,
+				ACE18BB91C10A52700EB74CC /* monural.jpg */,
+				ACE18BBA1C10A52700EB74CC /* naftaderm.jpg */,
+				ACE18BBB1C10A52700EB74CC /* naftizin.jpg */,
+				ACE18BBC1C10A52700EB74CC /* nastoyka_boyarishnika.jpg */,
+				ACE18BBD1C10A52700EB74CC /* nazivin.jpg */,
+				ACE18BBE1C10A52700EB74CC /* nitromnt.jpg */,
+				ACE18BBF1C10A52700EB74CC /* no_shpa.jpg */,
+				ACE18BC01C10A52700EB74CC /* nurofen_forte.jpg */,
+				ACE18BC11C10A52700EB74CC /* odeston.jpg */,
+				ACE18BC21C10A52700EB74CC /* oftan_katahrom.jpg */,
+				ACE18BC31C10A52700EB74CC /* otinum.jpg */,
+				ACE18BC41C10A52700EB74CC /* otipaks.jpg */,
+				ACE18BC51C10A52700EB74CC /* panavir.jpg */,
+				ACE18BC61C10A52700EB74CC /* papaverin.jpg */,
+				ACE18BC71C10A52700EB74CC /* pentalgin.jpg */,
+				ACE18BC81C10A52700EB74CC /* perekis_vodoroda.jpg */,
+				ACE18BC91C10A52700EB74CC /* pikamilon.jpg */,
+				ACE18BCA1C10A52700EB74CC /* pilobakt.jpg */,
+				ACE18BCB1C10A52700EB74CC /* pilokarpin.jpg */,
+				ACE18BCC1C10A52700EB74CC /* pinosol.jpg */,
+				ACE18BCD1C10A52700EB74CC /* proktoglivenol.jpg */,
+				ACE18BCE1C10A52700EB74CC /* proktosedil.jpg */,
+				ACE18BCF1C10A52700EB74CC /* proktozan.jpg */,
+				ACE18BD01C10A52700EB74CC /* prostanorm.jpg */,
+				ACE18BD11C10A52700EB74CC /* psilo_balzam.jpg */,
+				ACE18BD21C10A52700EB74CC /* regein.jpg */,
+				ACE18BD31C10A52700EB74CC /* renni.jpg */,
+				ACE18BD41C10A52700EB74CC /* rotokan.jpg */,
+				ACE18BD51C10A52700EB74CC /* rozamet.jpg */,
+				ACE18BD61C10A52700EB74CC /* sab_simpleks.jpg */,
+				ACE18BD71C10A52700EB74CC /* salbutamol.jpg */,
+				ACE18BD81C10A52700EB74CC /* senade.jpg */,
+				ACE18BD91C10A52700EB74CC /* sibektan.jpg */,
+				ACE18BDA1C10A52700EB74CC /* smekta.jpg */,
+				ACE18BDB1C10A52700EB74CC /* solkoseril_dentalnaya_adgezivnaya_pasta.jpg */,
+				ACE18BDC1C10A52700EB74CC /* solkoseril.jpg */,
+				ACE18BDD1C10A52700EB74CC /* sorbifer_durules.jpg */,
+				ACE18BDE1C10A52700EB74CC /* spazgan.jpg */,
+				ACE18BDF1C10A52700EB74CC /* spregal.jpg */,
+				ACE18BE01C10A52700EB74CC /* stomatofit.jpg */,
+				ACE18BE11C10A52700EB74CC /* strepsils.jpg */,
+				ACE18BE21C10A52700EB74CC /* struktum.jpg */,
+				ACE18BE31C10A52700EB74CC /* sulfacil_natria.jpg */,
+				ACE18BE41C10A52700EB74CC /* suprastin.jpg */,
+				ACE18BE51C10A52700EB74CC /* sushenitsy_topyanoy_trava.jpg */,
+				ACE18BE61C10A52700EB74CC /* tamiflyu.jpg */,
+				ACE18BE71C10A52700EB74CC /* tantum_verde.jpg */,
+				ACE18BE81C10A52700EB74CC /* terzhinan.jpg */,
+				ACE18BE91C10A52700EB74CC /* tetraciklinovaya_maz_glaznaya.jpg */,
+				ACE18BEA1C10A52700EB74CC /* tinidazol.jpg */,
+				ACE18BEB1C10A52700EB74CC /* tonzilgon_n.jpg */,
+				ACE18BEC1C10A52700EB74CC /* triderm.jpg */,
+				ACE18BED1C10A52700EB74CC /* tussamag.jpg */,
+				ACE18BEE1C10A52700EB74CC /* tykveol.jpg */,
+				ACE18BEF1C10A52700EB74CC /* ugol_aktivirivannyj.jpg */,
+				ACE18BF01C10A52700EB74CC /* urolesan.jpg */,
+				ACE18BF11C10A52700EB74CC /* valokordin.jpg */,
+				ACE18BF21C10A52700EB74CC /* venitan.jpg */,
+				ACE18BF31C10A52700EB74CC /* venoruton.jpg */,
+				ACE18BF41C10A52700EB74CC /* venter.jpg */,
+				ACE18BF51C10A52700EB74CC /* veroshpiron.jpg */,
+				ACE18BF61C10A52700EB74CC /* viprosal_v.jpg */,
+				ACE18BF71C10A52700EB74CC /* viru_merz_serol.jpg */,
+				ACE18BF81C10A52700EB74CC /* vitaon.jpg */,
+				ACE18BF91C10A52700EB74CC /* vitaprost.jpg */,
+				ACE18BFA1C10A52700EB74CC /* voltaren_emulgel.jpg */,
+				ACE18BFB1C10A52700EB74CC /* yoks.jpg */,
+				ACE18BFC1C10A52700EB74CC /* zhen_shen_nastoyka.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AC1CB3371C04860A004D6307 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB33B1C048A91004D6307 /* PM */,
+				AC1CB33F1C048A91004D6307 /* UIImageViewAligned */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		AC1CB33B1C048A91004D6307 /* PM */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB33C1C048A91004D6307 /* PMLabel */,
+			);
+			path = PM;
+			sourceTree = "<group>";
+		};
+		AC1CB33C1C048A91004D6307 /* PMLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB33D1C048A91004D6307 /* PMLabel.h */,
+				AC1CB33E1C048A91004D6307 /* PMLabel.m */,
+				AC1CB3461C049793004D6307 /* PMTagView.h */,
+				AC1CB3471C049793004D6307 /* PMTagView.m */,
+				ACE18C9E1C10CAEC00EB74CC /* PMAString.h */,
+				ACE18C9F1C10CAEC00EB74CC /* PMAString.m */,
+			);
+			path = PMLabel;
+			sourceTree = "<group>";
+		};
+		AC1CB33F1C048A91004D6307 /* UIImageViewAligned */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB3401C048A91004D6307 /* UIImageViewAligned.h */,
+				AC1CB3411C048A91004D6307 /* UIImageViewAligned.m */,
+			);
+			path = UIImageViewAligned;
+			sourceTree = "<group>";
+		};
+		AC39B9CC1C031E9E000ADFAE = {
+			isa = PBXGroup;
+			children = (
+				AC39B9D71C031E9E000ADFAE /* MedicalHelp */,
+				AC39B9D61C031E9E000ADFAE /* Products */,
+				2B53EFB62EA610D22EF95865 /* Pods */,
+				E5FF39DF5C3944F031ECE113 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC39B9D61C031E9E000ADFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9D51C031E9E000ADFAE /* MedicalHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC39B9D71C031E9E000ADFAE /* MedicalHelp */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9EF1C03211C000ADFAE /* Classes */,
+				AC39B9FF1C0321DE000ADFAE /* UI */,
+				AC39B9FE1C0321D8000ADFAE /* Main */,
+				AC39B9D81C031E9E000ADFAE /* SupportingFiles */,
+				ACC9CDE71C035661004F47BC /* Resources */,
+			);
+			path = MedicalHelp;
+			sourceTree = "<group>";
+		};
+		AC39B9D81C031E9E000ADFAE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9E91C031E9E000ADFAE /* Info.plist */,
+				AC39BA011C03237A000ADFAE /* PrefixHeader.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		AC39B9EF1C03211C000ADFAE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB3371C04860A004D6307 /* Libraries */,
+				AC39B9F61C03211C000ADFAE /* Utils */,
+				AC39B9F11C03211C000ADFAE /* Extensions */,
+				AC39B9F01C03211C000ADFAE /* DataBase */,
+				AC39B9FA1C03211C000ADFAE /* Views */,
+				AC39B9F91C03211C000ADFAE /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AC39B9F01C03211C000ADFAE /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA1B1C032E5E000ADFAE /* Models */,
+				AC39BA021C032500000ADFAE /* DataModel.h */,
+				AC39BA031C032500000ADFAE /* DataModel.m */,
+				ACC9CDF01C0356B9004F47BC /* Model.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		AC39B9F11C03211C000ADFAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9F21C03211C000ADFAE /* UIColor+Extension.h */,
+				AC39B9F31C03211C000ADFAE /* UIColor+Extension.m */,
+				AC39B9F41C03211C000ADFAE /* UIFont+Extension.h */,
+				AC39B9F51C03211C000ADFAE /* UIFont+Extension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC39B9F61C03211C000ADFAE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA161C032C06000ADFAE /* Config.h */,
+				AC39BA171C032C06000ADFAE /* Config.m */,
+				AC39B9F81C03211C000ADFAE /* Macroses.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AC39B9F91C03211C000ADFAE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA0E1C032922000ADFAE /* Base */,
+				AC39BA1C1C033D79000ADFAE /* Main */,
+				AC1CB3231C03D0DA004D6307 /* Details */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC39B9FA1C03211C000ADFAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9FB1C03211C000ADFAE /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC39B9FB1C03211C000ADFAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA121C032959000ADFAE /* Base */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AC39B9FE1C0321D8000ADFAE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9DB1C031E9E000ADFAE /* AppDelegate.h */,
+				AC39B9DC1C031E9E000ADFAE /* AppDelegate.m */,
+				AC39B9D91C031E9E000ADFAE /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AC39B9FF1C0321DE000ADFAE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AC39B9E11C031E9E000ADFAE /* Main.storyboard */,
+				AC39B9E61C031E9E000ADFAE /* LaunchScreen.storyboard */,
+				AC39B9E41C031E9E000ADFAE /* System.xcassets */,
+				AC39BA191C032C63000ADFAE /* Images.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		AC39BA0E1C032922000ADFAE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA0F1C03292F000ADFAE /* BaseController.h */,
+				AC39BA101C03292F000ADFAE /* BaseController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AC39BA121C032959000ADFAE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA131C032971000ADFAE /* BaseCell.h */,
+				AC39BA141C032971000ADFAE /* BaseCell.m */,
+				ACC9CE3E1C036CDF004F47BC /* MainCell.h */,
+				ACC9CE3F1C036CDF004F47BC /* MainCell.m */,
+				AC1CB34F1C04CD24004D6307 /* DescriptionCell.h */,
+				AC1CB3501C04CD24004D6307 /* DescriptionCell.m */,
+				AC1CB3521C04DE1A004D6307 /* TagsCell.h */,
+				AC1CB3531C04DE1A004D6307 /* TagsCell.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AC39BA1B1C032E5E000ADFAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACC9CE3B1C036042004F47BC /* MBase.h */,
+				ACC9CE3C1C036042004F47BC /* MBase.m */,
+				ACC9CE251C035DB9004F47BC /* MFirstAid.h */,
+				ACC9CE261C035DB9004F47BC /* MFirstAid.m */,
+				ACC9CE291C035DB9004F47BC /* MSymptom.h */,
+				ACC9CE2A1C035DB9004F47BC /* MSymptom.m */,
+				ACC9CE2D1C035DB9004F47BC /* MDisease.h */,
+				ACC9CE2E1C035DB9004F47BC /* MDisease.m */,
+				ACC9CE311C035DB9004F47BC /* MMedicament.h */,
+				ACC9CE321C035DB9004F47BC /* MMedicament.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC39BA1C1C033D79000ADFAE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AC39BA1D1C033D79000ADFAE /* MainController.h */,
+				AC39BA1E1C033D79000ADFAE /* MainController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ACC334A61C15AE0E001BFBDA /* Htmls */ = {
+			isa = PBXGroup;
+			children = (
+				AC05AB641C24AF65001985D8 /* 1.html */,
+				AC05AB651C24AF65001985D8 /* 2.html */,
+				AC05AB661C24AF65001985D8 /* 3.html */,
+				AC05AB671C24AF65001985D8 /* 4.html */,
+				AC05AB681C24AF65001985D8 /* 5.html */,
+				AC05AB691C24AF65001985D8 /* 6.html */,
+				AC05AB6A1C24AF65001985D8 /* 7.html */,
+				AC05AB6B1C24AF65001985D8 /* 8.html */,
+				AC05AB6C1C24AF65001985D8 /* 9.html */,
+				AC05AB6D1C24AF65001985D8 /* 10.html */,
+				AC05AB6E1C24AF65001985D8 /* 11.html */,
+				AC05AB6F1C24AF65001985D8 /* 12.html */,
+				AC05AB701C24AF65001985D8 /* 13.html */,
+				AC05AB711C24AF65001985D8 /* 14.html */,
+				AC05AB721C24AF65001985D8 /* 15.html */,
+				AC05AB731C24AF65001985D8 /* 16.html */,
+				AC05AB741C24AF65001985D8 /* 17.html */,
+				AC05AB751C24AF65001985D8 /* 18.html */,
+				AC05AB761C24AF65001985D8 /* 19.html */,
+				AC05AB771C24AF65001985D8 /* 20.html */,
+				AC05AB781C24AF65001985D8 /* 21.html */,
+				AC05AB791C24AF65001985D8 /* 22.html */,
+				AC05AB7A1C24AF65001985D8 /* 23.html */,
+				AC05AB7B1C24AF65001985D8 /* 24.html */,
+				AC05AB7C1C24AF65001985D8 /* 25.html */,
+			);
+			path = Htmls;
+			sourceTree = "<group>";
+		};
+		ACC9CDE71C035661004F47BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CB3271C03E193004D6307 /* Data */,
+				ACC334A61C15AE0E001BFBDA /* Htmls */,
+				AC1CB32C1C03E193004D6307 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5FF39DF5C3944F031ECE113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ACCDC1E5137DFC8BA28DC7C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC39B9D41C031E9E000ADFAE /* MedicalHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39B9EC1C031E9E000ADFAE /* Build configuration list for PBXNativeTarget "MedicalHelp" */;
+			buildPhases = (
+				7E43B809854DD80D4C4C9E5B /* Check Pods Manifest.lock */,
+				AC39B9D11C031E9E000ADFAE /* Sources */,
+				AC39B9D21C031E9E000ADFAE /* Frameworks */,
+				AC39B9D31C031E9E000ADFAE /* Resources */,
+				198073BAD63E9B14A4D5E315 /* Embed Pods Frameworks */,
+				61FF59600B0387B5C15D69FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalHelp;
+			productName = MedicalHelp;
+			productReference = AC39B9D51C031E9E000ADFAE /* MedicalHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC39B9CD1C031E9E000ADFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Popovme;
+				TargetAttributes = {
+					AC39B9D41C031E9E000ADFAE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AC39B9D01C031E9E000ADFAE /* Build configuration list for PBXProject "MedicalHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC39B9CC1C031E9E000ADFAE;
+			productRefGroup = AC39B9D61C031E9E000ADFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC39B9D41C031E9E000ADFAE /* MedicalHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC39B9D31C031E9E000ADFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC05AB8E1C24AF65001985D8 /* 18.html in Resources */,
+				ACE18C871C10A52700EB74CC /* tamiflyu.jpg in Resources */,
+				ACE18C6A1C10A52700EB74CC /* pikamilon.jpg in Resources */,
+				ACE18C951C10A52700EB74CC /* venter.jpg in Resources */,
+				ACE18C171C10A52700EB74CC /* dalazin.jpg in Resources */,
+				ACE18C5D1C10A52700EB74CC /* nastoyka_boyarishnika.jpg in Resources */,
+				ACE18C7B1C10A52700EB74CC /* smekta.jpg in Resources */,
+				ACE18C801C10A52700EB74CC /* spregal.jpg in Resources */,
+				ACE18C2F1C10A52700EB74CC /* furazolidon.jpg in Resources */,
+				ACE18C251C10A52700EB74CC /* eskuzan.jpg in Resources */,
+				ACE18C3C1C10A52700EB74CC /* kaffetin.jpg in Resources */,
+				ACE18C641C10A52700EB74CC /* otinum.jpg in Resources */,
+				ACE18C4D1C10A52700EB74CC /* lineks.jpg in Resources */,
+				ACE18C151C10A52700EB74CC /* ciprolet.jpg in Resources */,
+				AC05AB861C24AF65001985D8 /* 10.html in Resources */,
+				AC05AB931C24AF65001985D8 /* 23.html in Resources */,
+				ACE18C9C1C10A52700EB74CC /* yoks.jpg in Resources */,
+				ACE18C941C10A52700EB74CC /* venoruton.jpg in Resources */,
+				ACE18C111C10A52700EB74CC /* bronholitin.jpg in Resources */,
+				ACE18C891C10A52700EB74CC /* terzhinan.jpg in Resources */,
+				ACE18C131C10A52700EB74CC /* celestoderm_v_s_garamicinom.jpg in Resources */,
+				ACE18C5E1C10A52700EB74CC /* nazivin.jpg in Resources */,
+				ACE18C3B1C10A52700EB74CC /* izoket.jpg in Resources */,
+				ACE18C971C10A52700EB74CC /* viprosal_v.jpg in Resources */,
+				ACE18C3D1C10A52700EB74CC /* kagocel.jpg in Resources */,
+				ACE18C461C10A52700EB74CC /* kreon.jpg in Resources */,
+				ACE18C561C10A52700EB74CC /* metrogil_denta.jpg in Resources */,
+				ACE18C7A1C10A52700EB74CC /* sibektan.jpg in Resources */,
+				ACE18C9A1C10A52700EB74CC /* vitaprost.jpg in Resources */,
+				ACE18C841C10A52700EB74CC /* sulfacil_natria.jpg in Resources */,
+				ACE18C5F1C10A52700EB74CC /* nitromnt.jpg in Resources */,
+				ACE18C231C10A52700EB74CC /* eleuterokokka_ekstrakt.jpg in Resources */,
+				ACE18C821C10A52700EB74CC /* strepsils.jpg in Resources */,
+				ACE18C551C10A52700EB74CC /* metiluracil_svechi.jpg in Resources */,
+				AC05AB901C24AF65001985D8 /* 20.html in Resources */,
+				ACE18C861C10A52700EB74CC /* sushenitsy_topyanoy_trava.jpg in Resources */,
+				AC05AB831C24AF65001985D8 /* 7.html in Resources */,
+				ACE18C241C10A52700EB74CC /* enterosgel.jpg in Resources */,
+				ACE18C741C10A52700EB74CC /* renni.jpg in Resources */,
+				AC39B9E81C031E9E000ADFAE /* LaunchScreen.storyboard in Resources */,
+				ACE18C411C10A52700EB74CC /* klotrimazol.jpg in Resources */,
+				ACE18C191C10A52700EB74CC /* dekaris.jpg in Resources */,
+				AC05AB841C24AF65001985D8 /* 8.html in Resources */,
+				ACE18C1D1C10A52700EB74CC /* dip_hit.jpg in Resources */,
+				ACE18C901C10A52700EB74CC /* ugol_aktivirivannyj.jpg in Resources */,
+				AC1CB3331C03E193004D6307 /* symptoms.json in Resources */,
+				ACE18C2E1C10A52700EB74CC /* furamag.jpg in Resources */,
+				ACE18C201C10A52700EB74CC /* dyufalak.jpg in Resources */,
+				ACE18C4E1C10A52700EB74CC /* liv_52.jpg in Resources */,
+				ACE18C781C10A52700EB74CC /* salbutamol.jpg in Resources */,
+				AC05AB7F1C24AF65001985D8 /* 3.html in Resources */,
+				AC05AB8C1C24AF65001985D8 /* 16.html in Resources */,
+				ACE18C8D1C10A52700EB74CC /* triderm.jpg in Resources */,
+				ACE18C181C10A52700EB74CC /* de_nol.jpg in Resources */,
+				ACE18C0C1C10A52700EB74CC /* belosalik.jpg in Resources */,
+				ACE18C721C10A52700EB74CC /* psilo_balzam.jpg in Resources */,
+				ACE18C471C10A52700EB74CC /* kromogeksal.jpg in Resources */,
+				ACE18C571C10A52700EB74CC /* mezim_forte.jpg in Resources */,
+				ACE18C331C10A52700EB74CC /* geksoral.jpg in Resources */,
+				ACE18C921C10A52700EB74CC /* valokordin.jpg in Resources */,
+				AC05AB911C24AF65001985D8 /* 21.html in Resources */,
+				ACE18C261C10A52700EB74CC /* espumizan.jpg in Resources */,
+				AC05AB8A1C24AF65001985D8 /* 14.html in Resources */,
+				ACE18C121C10A52700EB74CC /* buskopan.jpg in Resources */,
+				AC05AB8D1C24AF65001985D8 /* 17.html in Resources */,
+				ACE18C991C10A52700EB74CC /* vitaon.jpg in Resources */,
+				AC05AB811C24AF65001985D8 /* 5.html in Resources */,
+				ACE18C391C10A52700EB74CC /* ihtiolovaya_maz.jpg in Resources */,
+				AC39BA1A1C032C63000ADFAE /* Images.xcassets in Resources */,
+				ACE18C2C1C10A52700EB74CC /* fosgogliv_forte.jpg in Resources */,
+				ACE18C5B1C10A52700EB74CC /* naftaderm.jpg in Resources */,
+				ACE18C611C10A52700EB74CC /* nurofen_forte.jpg in Resources */,
+				AC39B9E51C031E9E000ADFAE /* System.xcassets in Resources */,
+				ACE18C851C10A52700EB74CC /* suprastin.jpg in Resources */,
+				AC05AB851C24AF65001985D8 /* 9.html in Resources */,
+				ACE18C431C10A52700EB74CC /* kollomak.jpg in Resources */,
+				AC05AB821C24AF65001985D8 /* 6.html in Resources */,
+				ACE18C8F1C10A52700EB74CC /* tykveol.jpg in Resources */,
+				ACE18C981C10A52700EB74CC /* viru_merz_serol.jpg in Resources */,
+				ACE18C661C10A52700EB74CC /* panavir.jpg in Resources */,
+				ACE18C161C10A52700EB74CC /* ciston.jpg in Resources */,
+				ACE18C301C10A52700EB74CC /* furosemid.jpg in Resources */,
+				AC39B9E31C031E9E000ADFAE /* Main.storyboard in Resources */,
+				ACE18C7C1C10A52700EB74CC /* solkoseril_dentalnaya_adgezivnaya_pasta.jpg in Resources */,
+				ACE18C8E1C10A52700EB74CC /* tussamag.jpg in Resources */,
+				ACE18C0E1C10A52700EB74CC /* bioparoks.jpg in Resources */,
+				ACE18C9B1C10A52700EB74CC /* voltaren_emulgel.jpg in Resources */,
+				ACE18C031C10A52700EB74CC /* amoksiklav.jpg in Resources */,
+				ACE18C211C10A52700EB74CC /* dzhoset.jpg in Resources */,
+				AC05AB941C24AF65001985D8 /* 24.html in Resources */,
+				ACE18C7F1C10A52700EB74CC /* spazgan.jpg in Resources */,
+				ACE18C8C1C10A52700EB74CC /* tonzilgon_n.jpg in Resources */,
+				ACE18C011C10A52700EB74CC /* almagel_a.jpg in Resources */,
+				ACE18C351C10A52700EB74CC /* geparinovaya_maz.jpg in Resources */,
+				ACE18C6B1C10A52700EB74CC /* pilobakt.jpg in Resources */,
+				ACE18C0D1C10A52700EB74CC /* bepanten_plyus.jpg in Resources */,
+				ACE18C041C10A52700EB74CC /* apizartron.jpg in Resources */,
+				ACE18C5C1C10A52700EB74CC /* naftizin.jpg in Resources */,
+				ACE18C1E1C10A52700EB74CC /* dramina.jpg in Resources */,
+				ACE18C591C10A52700EB74CC /* mikozoral.jpg in Resources */,
+				AC1CB3301C03E193004D6307 /* diseases.json in Resources */,
+				ACE18C271C10A52700EB74CC /* fenistil_gel.jpg in Resources */,
+				AC05AB801C24AF65001985D8 /* 4.html in Resources */,
+				ACE18C751C10A52700EB74CC /* rotokan.jpg in Resources */,
+				ACE18C311C10A52700EB74CC /* galstena.jpg in Resources */,
+				ACE18C071C10A52700EB74CC /* askoril_ekspectorant.jpg in Resources */,
+				ACE18C7E1C10A52700EB74CC /* sorbifer_durules.jpg in Resources */,
+				AC05AB951C24AF65001985D8 /* 25.html in Resources */,
+				ACE18C441C10A52700EB74CC /* komplivit.jpg in Resources */,
+				AC1CB3311C03E193004D6307 /* first_aid.json in Resources */,
+				ACE18C0F1C10A52700EB74CC /* boyarishnik_tabletki.jpg in Resources */,
+				ACE18C021C10A52700EB74CC /* almagel_neo.jpg in Resources */,
+				ACE18C481C10A52700EB74CC /* kvinaks.jpg in Resources */,
+				ACE18C3A1C10A52700EB74CC /* intetriks.jpg in Resources */,
+				ACE18C401C10A52700EB74CC /* klaritin.jpg in Resources */,
+				ACE18C791C10A52700EB74CC /* senade.jpg in Resources */,
+				ACE18C831C10A52700EB74CC /* struktum.jpg in Resources */,
+				AC05AB871C24AF65001985D8 /* 11.html in Resources */,
+				ACE18C911C10A52700EB74CC /* urolesan.jpg in Resources */,
+				ACE18C4C1C10A52700EB74CC /* libeksin.jpg in Resources */,
+				AC05AB8B1C24AF65001985D8 /* 15.html in Resources */,
+				ACE18C671C10A52700EB74CC /* papaverin.jpg in Resources */,
+				ACE18C091C10A52700EB74CC /* balzam_spasatel.jpg in Resources */,
+				AC05AB7E1C24AF65001985D8 /* 2.html in Resources */,
+				ACE18C1F1C10A52700EB74CC /* duofilm.jpg in Resources */,
+				AC05AB8F1C24AF65001985D8 /* 19.html in Resources */,
+				ACE18C381C10A52700EB74CC /* ibuprofen.jpg in Resources */,
+				ACE18C1C1C10A52700EB74CC /* derinat.jpg in Resources */,
+				ACE18C811C10A52700EB74CC /* stomatofit.jpg in Resources */,
+				ACE18C081C10A52700EB74CC /* aviamarin.jpg in Resources */,
+				ACE18C051C10A52700EB74CC /* arbidol.jpg in Resources */,
+				AC05AB891C24AF65001985D8 /* 13.html in Resources */,
+				ACE18C581C10A52700EB74CC /* migrenol.jpg in Resources */,
+				ACE18C3F1C10A52700EB74CC /* karsil.jpg in Resources */,
+				ACE18C7D1C10A52700EB74CC /* solkoseril.jpg in Resources */,
+				ACE18C881C10A52700EB74CC /* tantum_verde.jpg in Resources */,
+				ACE18C451C10A52700EB74CC /* korvalol.jpg in Resources */,
+				ACE18C2A1C10A52700EB74CC /* fitolizin.jpg in Resources */,
+				AC1CB3321C03E193004D6307 /* medicaments.json in Resources */,
+				ACE18C001C10A52700EB74CC /* allergodil.jpg in Resources */,
+				ACE18C6D1C10A52700EB74CC /* pinosol.jpg in Resources */,
+				ACE18C761C10A52700EB74CC /* rozamet.jpg in Resources */,
+				ACE18C2D1C10A52700EB74CC /* ftalazol.jpg in Resources */,
+				ACE18C141C10A52700EB74CC /* centrum.jpg in Resources */,
+				ACE18C931C10A52700EB74CC /* venitan.jpg in Resources */,
+				ACE18C711C10A52700EB74CC /* prostanorm.jpg in Resources */,
+				ACE18C1B1C10A52700EB74CC /* derinat_inyekcii.jpg in Resources */,
+				ACE18C5A1C10A52700EB74CC /* monural.jpg in Resources */,
+				ACE18C6C1C10A52700EB74CC /* pilokarpin.jpg in Resources */,
+				ACE18C531C10A52700EB74CC /* maz_benzilbenzoata.jpg in Resources */,
+				ACE18C1A1C10A52700EB74CC /* deprim.jpg in Resources */,
+				ACE18C361C10A52700EB74CC /* hilak_forte.jpg in Resources */,
+				AC05AB7D1C24AF65001985D8 /* 1.html in Resources */,
+				ACE18C4B1C10A52700EB74CC /* levomekol.jpg in Resources */,
+				ACE18C521C10A52700EB74CC /* maslo_shipovnika.jpg in Resources */,
+				ACE18C631C10A52700EB74CC /* oftan_katahrom.jpg in Resources */,
+				ACE18C0A1C10A52700EB74CC /* balzam_zolotaya_zvezda.jpg in Resources */,
+				ACE18C061C10A52700EB74CC /* arutimol.jpg in Resources */,
+				ACE18C9D1C10A52700EB74CC /* zhen_shen_nastoyka.jpg in Resources */,
+				ACE18C101C10A52700EB74CC /* bronhikum.jpg in Resources */,
+				ACE18C541C10A52700EB74CC /* meronem.jpg in Resources */,
+				ACE18C491C10A52700EB74CC /* lamizil_uno.jpg in Resources */,
+				ACE18C511C10A52700EB74CC /* maltofer.jpg in Resources */,
+				ACE18C621C10A52700EB74CC /* odeston.jpg in Resources */,
+				ACE18BFF1C10A52700EB74CC /* alerana.jpg in Resources */,
+				AC05AB881C24AF65001985D8 /* 12.html in Resources */,
+				ACE18BFE1C10A52700EB74CC /* aktovegin.jpg in Resources */,
+				ACE18C501C10A52700EB74CC /* maaloks.jpg in Resources */,
+				ACE18C701C10A52700EB74CC /* proktozan.jpg in Resources */,
+				AC05AB921C24AF65001985D8 /* 22.html in Resources */,
+				ACE18C651C10A52700EB74CC /* otipaks.jpg in Resources */,
+				ACE18C4A1C10A52700EB74CC /* lamizil.jpg in Resources */,
+				ACE18C321C10A52700EB74CC /* gastrofarm.jpg in Resources */,
+				ACE18C421C10A52700EB74CC /* kofetamin.jpg in Resources */,
+				ACE18C291C10A52700EB74CC /* finalgel.jpg in Resources */,
+				ACE18C4F1C10A52700EB74CC /* lopedium.jpg in Resources */,
+				ACE18C6E1C10A52700EB74CC /* proktoglivenol.jpg in Resources */,
+				ACE18C3E1C10A52700EB74CC /* kanefron_n.jpg in Resources */,
+				ACE18C341C10A52700EB74CC /* gelmintoks.jpg in Resources */,
+				ACE18C8B1C10A52700EB74CC /* tinidazol.jpg in Resources */,
+				ACE18C281C10A52700EB74CC /* festal.jpg in Resources */,
+				ACE18C731C10A52700EB74CC /* regein.jpg in Resources */,
+				ACE18C6F1C10A52700EB74CC /* proktosedil.jpg in Resources */,
+				ACE18C2B1C10A52700EB74CC /* floksal.jpg in Resources */,
+				ACE18C681C10A52700EB74CC /* pentalgin.jpg in Resources */,
+				ACE18C961C10A52700EB74CC /* veroshpiron.jpg in Resources */,
+				ACE18C771C10A52700EB74CC /* sab_simpleks.jpg in Resources */,
+				ACE18C221C10A52700EB74CC /* ekzoderil.jpg in Resources */,
+				ACE18BFD1C10A52700EB74CC /* abaktal.jpg in Resources */,
+				ACE18C8A1C10A52700EB74CC /* tetraciklinovaya_maz_glaznaya.jpg in Resources */,
+				ACE18C371C10A52700EB74CC /* hondroksid.jpg in Resources */,
+				ACE18C691C10A52700EB74CC /* perekis_vodoroda.jpg in Resources */,
+				ACE18C601C10A52700EB74CC /* no_shpa.jpg in Resources */,
+				ACE18C0B1C10A52700EB74CC /* baneocin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198073BAD63E9B14A4D5E315 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FF59600B0387B5C15D69FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E43B809854DD80D4C4C9E5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC39B9D11C031E9E000ADFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC9CE3A1C035DB9004F47BC /* MMedicament.m in Sources */,
+				AC1CB3421C048A91004D6307 /* PMLabel.m in Sources */,
+				AC1CB3481C049793004D6307 /* PMTagView.m in Sources */,
+				ACC9CE381C035DB9004F47BC /* MDisease.m in Sources */,
+				AC39BA151C032971000ADFAE /* BaseCell.m in Sources */,
+				ACC9CE3D1C036042004F47BC /* MBase.m in Sources */,
+				AC1CB3511C04CD24004D6307 /* DescriptionCell.m in Sources */,
+				AC39BA1F1C033D79000ADFAE /* MainController.m in Sources */,
+				AC1CB3431C048A91004D6307 /* UIImageViewAligned.m in Sources */,
+				ACE18CA01C10CAEC00EB74CC /* PMAString.m in Sources */,
+				AC39BA111C03292F000ADFAE /* BaseController.m in Sources */,
+				AC39B9DD1C031E9E000ADFAE /* AppDelegate.m in Sources */,
+				AC39BA041C032500000ADFAE /* DataModel.m in Sources */,
+				AC1CB3541C04DE1A004D6307 /* TagsCell.m in Sources */,
+				ACC9CE361C035DB9004F47BC /* MSymptom.m in Sources */,
+				AC39B9DA1C031E9E000ADFAE /* main.m in Sources */,
+				ACC9CE401C036CDF004F47BC /* MainCell.m in Sources */,
+				AC39B9FD1C03211C000ADFAE /* UIFont+Extension.m in Sources */,
+				ACC9CDF21C0356B9004F47BC /* Model.xcdatamodeld in Sources */,
+				ACC9CE341C035DB9004F47BC /* MFirstAid.m in Sources */,
+				AC1CB3261C03D0FC004D6307 /* DetailsController.m in Sources */,
+				AC39BA181C032C06000ADFAE /* Config.m in Sources */,
+				AC39B9FC1C03211C000ADFAE /* UIColor+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC39B9E11C031E9E000ADFAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC39B9E21C031E9E000ADFAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC39B9E61C031E9E000ADFAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC39B9E71C031E9E000ADFAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC39B9EA1C031E9E000ADFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC39B9EB1C031E9E000ADFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC39B9ED1C031E9E000ADFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1C11E63F3CDDD26015FA57 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = MedicalHelp/SupportingFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = MedicalHelp/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AidKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AC39B9EE1C031E9E000ADFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD01D7801BDA422A18012554 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = MedicalHelp/SupportingFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = MedicalHelp/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AidKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "375dc6f4-e77e-4936-9e8f-d8b4325d958a";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC39B9D01C031E9E000ADFAE /* Build configuration list for PBXProject "MedicalHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39B9EA1C031E9E000ADFAE /* Debug */,
+				AC39B9EB1C031E9E000ADFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC39B9EC1C031E9E000ADFAE /* Build configuration list for PBXNativeTarget "MedicalHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39B9ED1C031E9E000ADFAE /* Debug */,
+				AC39B9EE1C031E9E000ADFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACC9CDF01C0356B9004F47BC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACC9CDF11C0356B9004F47BC /* Model.xcdatamodel */,
+			);
+			currentVersion = ACC9CDF11C0356B9004F47BC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC39B9CD1C031E9E000ADFAE /* Project object */;
+}
