@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <YandexMobileMetrica/YandexMobileMetrica.h>
 
 @interface AppDelegate ()
 
@@ -17,8 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [DataModel sharedInstance];
     
-    sleep(2);
     
+    [YMMYandexMetrica activateWithApiKey:@"6a6835b0-5886-4e0c-a2d2-ca292128568d"];
+
+  
+    sleep(2);
     return YES;
 }
 

@@ -1,5 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/YandexMobileMetrica"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MagicalRecord"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MagicalRecord"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"MagicalRecord" -framework "CoreData"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MagicalRecord" "${PODS_ROOT}/Headers/Public/YandexMobileMetrica"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MagicalRecord" -isystem "${PODS_ROOT}/Headers/Public/YandexMobileMetrica"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"MagicalRecord" -l"c++" -l"sqlite3" -l"z" -framework "AdSupport" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit" -framework "YandexMobileMetrica" -weak_framework "SafariServices"
 PODS_ROOT = ${SRCROOT}/Pods

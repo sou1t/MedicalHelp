@@ -20,7 +20,7 @@
                 [fileManager removeItemAtPath:dbUrl.path error:nil];
             }
         }
-        
+
         [MagicalRecord setShouldDeleteStoreOnModelMismatch:YES];
         [MagicalRecord setLoggingLevel:MagicalRecordLoggingLevelOff];
         [MagicalRecord setupCoreDataStack];
