@@ -69,9 +69,9 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     
     self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
     self.searchBar.delegate = (id)self;
-    self.searchBar.backgroundColor = self.tableView.backgroundColor;
+    self.searchBar.barTintColor = self.tableView.backgroundColor;
     isFiltered = false;
-    
+    [self.view endEditing:YES];
     
 
 }
@@ -101,28 +101,28 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
                 self.objects = [DataModel sharedInstance].firstAids;
                 self.tableView.backgroundColor = [UIColor bgRedColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
-                
+                self.searchBar.barTintColor = self.tableView.backgroundColor;
                 break;
                 
             case ButtonsTypeSymptoms:
                 self.objects = [DataModel sharedInstance].symptoms;
                 self.tableView.backgroundColor = [UIColor bgLightColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
-                
+                self.searchBar.barTintColor = self.tableView.backgroundColor;
                 break;
                 
             case ButtonsTypeDiseases:
                 self.objects = [DataModel sharedInstance].diseases;
                 self.tableView.backgroundColor = [UIColor bgLightColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
-                
+                self.searchBar.barTintColor = self.tableView.backgroundColor;
                 break;
                 
             case ButtonsTypeMedicaments:
                 self.objects = [DataModel sharedInstance].medicaments;
                 self.tableView.backgroundColor = [UIColor bgLightColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
-                
+                self.searchBar.barTintColor = self.tableView.backgroundColor;
                 break;
                 
             default:
@@ -234,6 +234,8 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     [self.tableView reloadData];
 }
 
+
+
 - (void) searchBarSearchButtonClicked:(UISearchBar *)theSearchBar {
     [self searchBarRemoveKeyboard:theSearchBar];
 }
@@ -246,5 +248,9 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     [self searchBarRemoveKeyboard:searchBar];
 }
 
+-(bool)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
+    self.searchBar.showsCancelButton = true;
+    return true;
+}
 
 @end
