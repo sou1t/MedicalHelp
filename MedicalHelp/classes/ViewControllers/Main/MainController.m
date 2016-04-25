@@ -20,13 +20,15 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
 };
 
 @interface MainController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
-{bool isFiltered;}
+{bool isFiltered;
+    bool isred;
+}
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 @property (nonatomic, weak) IBOutlet UIView *buttonsView;
 
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
-
+@property (weak, nonatomic) UIButton *cancelButton;
 @property (nonatomic, strong) NSMutableArray *searchResult;
 
 
@@ -70,8 +72,9 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
     self.searchBar.delegate = (id)self;
     self.searchBar.barTintColor = self.tableView.backgroundColor;
+    isred=true;
     isFiltered = false;
-    [self.view endEditing:YES];
+    
     
 
 }
@@ -102,6 +105,8 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
                 self.tableView.backgroundColor = [UIColor bgRedColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
                 self.searchBar.barTintColor = self.tableView.backgroundColor;
+                isred=true;
+                [self ChangeCancelButtonColor:[UIColor whiteColor] setTitle:@"Отмена"];
                 break;
                 
             case ButtonsTypeSymptoms:
@@ -109,6 +114,8 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
                 self.tableView.backgroundColor = [UIColor bgLightColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
                 self.searchBar.barTintColor = self.tableView.backgroundColor;
+                [self ChangeCancelButtonColor:[UIColor bgRedColor] setTitle:@"Отмена"];
+                isred=false;
                 break;
                 
             case ButtonsTypeDiseases:
@@ -116,6 +123,8 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
                 self.tableView.backgroundColor = [UIColor bgLightColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
                 self.searchBar.barTintColor = self.tableView.backgroundColor;
+                isred = false;
+                [self ChangeCancelButtonColor:[UIColor bgRedColor] setTitle:@"Отмена"];
                 break;
                 
             case ButtonsTypeMedicaments:
@@ -123,6 +132,8 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
                 self.tableView.backgroundColor = [UIColor bgLightColor];
                 self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
                 self.searchBar.barTintColor = self.tableView.backgroundColor;
+                isred = false;
+                [self ChangeCancelButtonColor:[UIColor bgRedColor] setTitle:@"Отмена"];
                 break;
                 
             default:
@@ -218,8 +229,27 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
 
 #pragma mark - UISearchBarDelegate
 
+-(void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
+{
+    if (isred) {
+        [self ChangeCancelButtonColor:[UIColor whiteColor] setTitle:@"Отмена"];
+    }
+    else
+    {
+        [self ChangeCancelButtonColor:[UIColor bgRedColor] setTitle:@"Отмена"];
+    }
+ 
+}
+
 -(void)searchBar:(UISearchBar*)searchBar textDidChange:(NSString*)text
 {
+    if (isred) {
+        [self ChangeCancelButtonColor:[UIColor whiteColor] setTitle:@"Отмена"];
+    }
+    else
+    {
+        [self ChangeCancelButtonColor:[UIColor bgRedColor] setTitle:@"Отмена"];
+    }
     self.searchBar.showsCancelButton = true;
     if(text.length == 0)
     {
@@ -248,9 +278,16 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     [self searchBarRemoveKeyboard:searchBar];
 }
 
--(bool)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
+-(BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
     self.searchBar.showsCancelButton = true;
-    return true;
+    return YES;
+}
+
+
+- (void)ChangeCancelButtonColor:(UIColor *)color setTitle:(NSString *)text {
+    self.cancelButton = [self.searchBar valueForKey:@"_cancelButton"];
+    [self.cancelButton setTitleColor:color forState:UIControlStateNormal];
+    [self.cancelButton setTitle:text forState:UIControlStateNormal];
 }
 
 @end
