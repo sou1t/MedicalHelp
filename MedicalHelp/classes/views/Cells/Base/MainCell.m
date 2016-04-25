@@ -33,7 +33,6 @@
 
 - (void)setMData:(MBase *)mData {
     self.titleLabel.text = mData.title;
-    
     if ([mData isKindOfClass:[MFirstAid class]]) {
         self.titleLabel.textColor = [UIColor textLightColor];
     } else {

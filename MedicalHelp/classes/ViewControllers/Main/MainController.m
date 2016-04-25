@@ -11,6 +11,7 @@
 #import "DetailsController.h"
 #import "MainCell.h"
 
+
 typedef NS_ENUM(NSInteger, ButtonsType) {
     ButtonsTypeFirstAid = 1,
     ButtonsTypeSymptoms,
@@ -18,10 +19,17 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     ButtonsTypeMedicaments,
 };
 
-@interface MainController () <UITableViewDataSource, UITableViewDelegate>
+@interface MainController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
+{bool isFiltered;}
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 @property (nonatomic, weak) IBOutlet UIView *buttonsView;
+
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+
+@property (nonatomic, strong) NSMutableArray *searchResult;
+
+
 
 @property (nonatomic, assign) ButtonsType selectedButtonType;
 @property (nonatomic, assign) NSInteger selectedRow;
@@ -55,8 +63,16 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
                 [button setBackgroundImage:selectedImage forState:UIControlStateHighlighted | UIControlStateSelected];
             }
         }
+
     }
     self.selectedButtonType = ButtonsTypeFirstAid;
+    
+    self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
+    self.searchBar.delegate = (id)self;
+    self.searchBar.backgroundColor = self.tableView.backgroundColor;
+    isFiltered = false;
+    
+
 }
 
 
@@ -77,27 +93,35 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
             case ButtonsTypeFirstAid:
                 self.objects = [DataModel sharedInstance].firstAids;
                 self.tableView.backgroundColor = [UIColor bgRedColor];
+                self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
+                
                 break;
                 
             case ButtonsTypeSymptoms:
                 self.objects = [DataModel sharedInstance].symptoms;
                 self.tableView.backgroundColor = [UIColor bgLightColor];
+                self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
+                
                 break;
                 
             case ButtonsTypeDiseases:
                 self.objects = [DataModel sharedInstance].diseases;
                 self.tableView.backgroundColor = [UIColor bgLightColor];
+                self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
+                
                 break;
                 
             case ButtonsTypeMedicaments:
                 self.objects = [DataModel sharedInstance].medicaments;
                 self.tableView.backgroundColor = [UIColor bgLightColor];
+                self.searchResult = [NSMutableArray arrayWithCapacity:[self.objects count]];
+                
                 break;
                 
             default:
                 break;
         }
-        
+        self.searchBar.backgroundColor = self.tableView.backgroundColor;
         [self.tableView reloadData];
     }
 }
@@ -107,8 +131,16 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(nullable id)sender {
     if ([segue.destinationViewController isKindOfClass:[DetailsController class]]) {
+        if (self.searchDisplayController.active) {
+            DetailsController *detailsController = segue.destinationViewController;
+            detailsController.mData = self.searchResult[self.selectedRow];
+
+        }
+        else
+        {
         DetailsController *detailsController = segue.destinationViewController;
         detailsController.mData = self.objects[self.selectedRow];
+        }
     }
 }
 
@@ -122,22 +154,40 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
 
 #pragma mark - Work
 
-- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    [(MainCell *)cell setMData:self.objects[indexPath.row]];
+- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withData:(NSArray *)data
+{
+        [(MainCell *)cell setMData:data[indexPath.row]];
 }
 
 
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.objects.count;
+    
+    if (isFiltered)
+    {
+        return [self.searchResult count];
+    }
+    else
+    {
+        return [self.objects count];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[MainCell defaultIdentifer] forIndexPath:indexPath];
-    
-    [self configureCell:cell atIndexPath:indexPath];
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[MainCell defaultIdentifer] /*forIndexPath:indexPath*/];
+    if (cell == nil)
+    {
+        cell = [[MainCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:[MainCell defaultIdentifer]];
+    }
+    if (isFiltered)
+    {
+       [self configureCell:cell atIndexPath:indexPath withData:self.searchResult];
+    }
+    else
+    {
+        [self configureCell:cell atIndexPath:indexPath withData:self.objects];
+    }
     return cell;
 }
 
@@ -149,5 +199,36 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     
     IB_SHOW_SEGUE(DetailsController);
 }
+
+- (void)filterContentForSearchText:(NSString*)searchText
+{
+    [self.searchResult removeAllObjects];
+    
+    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"self.title CONTAINS[c] %@", searchText];
+    
+    self.searchResult = [NSMutableArray arrayWithArray: [self.objects filteredArrayUsingPredicate:resultPredicate]];
+}
+
+#pragma mark - UISearchBarDelegate
+
+-(void)searchBar:(UISearchBar*)searchBar textDidChange:(NSString*)text
+{
+    if(text.length == 0)
+    {
+        isFiltered = false;
+    }
+    else
+    {
+        [self filterContentForSearchText:text];
+        isFiltered = true;
+    }
+    
+    [self.tableView reloadData];
+}
+
+
+
+
+
 
 @end
