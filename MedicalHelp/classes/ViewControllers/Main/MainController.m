@@ -77,6 +77,12 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
 }
 
 
+- (void)searchBarRemoveKeyboard:(UISearchBar *)searchBar {
+    
+    [self.searchBar resignFirstResponder];
+    self.searchBar.showsCancelButton = false;
+}
+
 #pragma mark - Property Private
 
 - (void)setSelectedButtonType:(ButtonsType)selectedButtonType {
@@ -214,6 +220,7 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
 
 -(void)searchBar:(UISearchBar*)searchBar textDidChange:(NSString*)text
 {
+    self.searchBar.showsCancelButton = true;
     if(text.length == 0)
     {
         isFiltered = false;
@@ -223,24 +230,20 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
         [self filterContentForSearchText:text];
         isFiltered = true;
     }
-    self.searchBar.showsCancelButton = true;
+    
     [self.tableView reloadData];
 }
 
-
 - (void) searchBarSearchButtonClicked:(UISearchBar *)theSearchBar {
-    [self.searchBar resignFirstResponder];
-    self.searchBar.showsCancelButton = false;
+    [self searchBarRemoveKeyboard:theSearchBar];
 }
 
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
-    [self.searchBar resignFirstResponder];
-    self.searchBar.showsCancelButton = false;
+    [self searchBarRemoveKeyboard:searchBar];
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
-    [self.searchBar resignFirstResponder];
-    self.searchBar.showsCancelButton = false;
+    [self searchBarRemoveKeyboard:searchBar];
 }
 
 
