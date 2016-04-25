@@ -72,6 +72,7 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
     self.searchBar.backgroundColor = self.tableView.backgroundColor;
     isFiltered = false;
     
+    
 
 }
 
@@ -222,13 +223,25 @@ typedef NS_ENUM(NSInteger, ButtonsType) {
         [self filterContentForSearchText:text];
         isFiltered = true;
     }
-    
+    self.searchBar.showsCancelButton = true;
     [self.tableView reloadData];
 }
 
 
+- (void) searchBarSearchButtonClicked:(UISearchBar *)theSearchBar {
+    [self.searchBar resignFirstResponder];
+    self.searchBar.showsCancelButton = false;
+}
 
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+    [self.searchBar resignFirstResponder];
+    self.searchBar.showsCancelButton = false;
+}
 
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
+    [self.searchBar resignFirstResponder];
+    self.searchBar.showsCancelButton = false;
+}
 
 
 @end
